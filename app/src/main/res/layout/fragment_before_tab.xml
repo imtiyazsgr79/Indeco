@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".SearchTasks.beforeTab">
+
+    <!-- TODO: Update blank fragment layout -->
+    <ImageView
+        android:id="@+id/beforeImageTask1"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_margin="10dp"
+        android:layout_gravity="center"
+        android:background="@drawable/imgbefore"
+        android:elevation="30dp" />
+
+</FrameLayout>

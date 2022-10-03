@@ -1,0 +1,807 @@
+1<?xml version="1.0" encoding="utf-8"?>
+2<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+3    package="com.synergyyy"
+4    android:versionCode="8"
+5    android:versionName="1.3" >
+6
+7    <uses-sdk
+8        android:minSdkVersion="21"
+8-->/Users/macair/Downloads/indecomobile/app/src/main/AndroidManifest.xml
+9        android:targetSdkVersion="31" />
+9-->/Users/macair/Downloads/indecomobile/app/src/main/AndroidManifest.xml
+10
+11    <uses-permission android:name="android.permission.RECEIVE_BOOT_COMPLETED" />
+11-->/Users/macair/Downloads/indecomobile/app/src/main/AndroidManifest.xml:6:5-81
+11-->/Users/macair/Downloads/indecomobile/app/src/main/AndroidManifest.xml:6:22-78
+12    <uses-permission android:name="android.hardware.camera2.full" />
+12-->/Users/macair/Downloads/indecomobile/app/src/main/AndroidManifest.xml:7:5-69
+12-->/Users/macair/Downloads/indecomobile/app/src/main/AndroidManifest.xml:7:22-66
+13    <uses-permission android:name="android.permission.INTERNET" />
+13-->/Users/macair/Downloads/indecomobile/app/src/main/AndroidManifest.xml:8:5-67
+13-->/Users/macair/Downloads/indecomobile/app/src/main/AndroidManifest.xml:8:22-64
+14    <uses-permission android:name="android.permission.CAMERA" />
+14-->/Users/macair/Downloads/indecomobile/app/src/main/AndroidManifest.xml:9:5-65
+14-->/Users/macair/Downloads/indecomobile/app/src/main/AndroidManifest.xml:9:22-62
+15    <uses-permission android:name="android.permission.ACCESS_FINE_LOCATION" />
+15-->/Users/macair/Downloads/indecomobile/app/src/main/AndroidManifest.xml:10:5-79
+15-->/Users/macair/Downloads/indecomobile/app/src/main/AndroidManifest.xml:10:22-76
+16    <uses-permission android:name="com.example.permission.MAPS_RECEIVE" />
+16-->/Users/macair/Downloads/indecomobile/app/src/main/AndroidManifest.xml:11:5-75
+16-->/Users/macair/Downloads/indecomobile/app/src/main/AndroidManifest.xml:11:22-72
+17    <uses-permission android:name="android.permission.ACCESS_NOTIFICATION_POLICY" />
+17-->/Users/macair/Downloads/indecomobile/app/src/main/AndroidManifest.xml:12:5-85
+17-->/Users/macair/Downloads/indecomobile/app/src/main/AndroidManifest.xml:12:22-82
+18    <uses-permission android:name="com.google.android.providers.gsf.permission.READ_GSERVICES" />
+18-->/Users/macair/Downloads/indecomobile/app/src/main/AndroidManifest.xml:13:5-98
+18-->/Users/macair/Downloads/indecomobile/app/src/main/AndroidManifest.xml:13:22-95
+19    <uses-permission android:name="android.permission.READ_EXTERNAL_STORAGE" />
+19-->/Users/macair/Downloads/indecomobile/app/src/main/AndroidManifest.xml:14:5-80
+19-->/Users/macair/Downloads/indecomobile/app/src/main/AndroidManifest.xml:14:22-77
+20    <uses-permission android:name="com.google.android.c2dm.permission.RECEIVE" />
+20-->/Users/macair/Downloads/indecomobile/app/src/main/AndroidManifest.xml:15:5-82
+20-->/Users/macair/Downloads/indecomobile/app/src/main/AndroidManifest.xml:15:22-79
+21    <uses-permission android:name="android.permission.WAKE_LOCK" />
+21-->/Users/macair/Downloads/indecomobile/app/src/main/AndroidManifest.xml:16:5-68
+21-->/Users/macair/Downloads/indecomobile/app/src/main/AndroidManifest.xml:16:22-65
+22    <uses-permission android:name="android.permission.WRITE_EXTERNAL_STORAGE" />
+22-->/Users/macair/Downloads/indecomobile/app/src/main/AndroidManifest.xml:17:5-81
+22-->/Users/macair/Downloads/indecomobile/app/src/main/AndroidManifest.xml:17:22-78
+23    <uses-permission android:name="android.permission.ACCESS_COARSE_LOCATION" />
+23-->/Users/macair/Downloads/indecomobile/app/src/main/AndroidManifest.xml:18:5-81
+23-->/Users/macair/Downloads/indecomobile/app/src/main/AndroidManifest.xml:18:22-78
+24    <uses-permission android:name="android.permission.ACCESS_NETWORK_STATE" />
+24-->/Users/macair/Downloads/indecomobile/app/src/main/AndroidManifest.xml:19:5-79
+24-->/Users/macair/Downloads/indecomobile/app/src/main/AndroidManifest.xml:19:22-76
+25    <uses-permission android:name="android.permission.FOREGROUND_SERVICE" />
+25-->/Users/macair/Downloads/indecomobile/app/src/main/AndroidManifest.xml:20:5-77
+25-->/Users/macair/Downloads/indecomobile/app/src/main/AndroidManifest.xml:20:22-74
+26
+27    <queries>
+27-->[com.github.chuckerteam.chucker:library:3.4.0] /Users/macair/.gradle/caches/transforms-2/files-2.1/51947166542d1c2020215332b582702b/jetified-library-3.4.0/AndroidManifest.xml:7:5-13:15
+28        <intent>
+28-->[com.github.chuckerteam.chucker:library:3.4.0] /Users/macair/.gradle/caches/transforms-2/files-2.1/51947166542d1c2020215332b582702b/jetified-library-3.4.0/AndroidManifest.xml:8:9-12:18
+29            <action android:name="android.intent.action.CREATE_DOCUMENT" />
+29-->[com.github.chuckerteam.chucker:library:3.4.0] /Users/macair/.gradle/caches/transforms-2/files-2.1/51947166542d1c2020215332b582702b/jetified-library-3.4.0/AndroidManifest.xml:9:13-76
+29-->[com.github.chuckerteam.chucker:library:3.4.0] /Users/macair/.gradle/caches/transforms-2/files-2.1/51947166542d1c2020215332b582702b/jetified-library-3.4.0/AndroidManifest.xml:9:21-73
+30
+31            <data android:mimeType="*/*" />
+31-->/Users/macair/Downloads/indecomobile/app/src/main/AndroidManifest.xml:47:17-51:45
+32        </intent>
+33        <!-- Needs to be explicitly declared on Android R+ -->
+34        <package android:name="com.google.android.apps.maps" />
+34-->[com.google.android.gms:play-services-maps:18.0.1] /Users/macair/.gradle/caches/transforms-2/files-2.1/d7ec8feb1893195b5a85b9383c4a010e/jetified-play-services-maps-18.0.1/AndroidManifest.xml:33:9-64
+34-->[com.google.android.gms:play-services-maps:18.0.1] /Users/macair/.gradle/caches/transforms-2/files-2.1/d7ec8feb1893195b5a85b9383c4a010e/jetified-play-services-maps-18.0.1/AndroidManifest.xml:33:18-61
+35
+36        <intent>
+36-->[androidx.camera:camera-extensions:1.0.0-alpha32] /Users/macair/.gradle/caches/transforms-2/files-2.1/c17a1f19a8c8d06cdbf0a60f99080547/jetified-camera-extensions-1.0.0-alpha32/AndroidManifest.xml:25:9-27:18
+37            <action android:name="androidx.camera.extensions.action.VENDOR_ACTION" />
+37-->[androidx.camera:camera-extensions:1.0.0-alpha32] /Users/macair/.gradle/caches/transforms-2/files-2.1/c17a1f19a8c8d06cdbf0a60f99080547/jetified-camera-extensions-1.0.0-alpha32/AndroidManifest.xml:26:13-86
+37-->[androidx.camera:camera-extensions:1.0.0-alpha32] /Users/macair/.gradle/caches/transforms-2/files-2.1/c17a1f19a8c8d06cdbf0a60f99080547/jetified-camera-extensions-1.0.0-alpha32/AndroidManifest.xml:26:21-83
+38        </intent>
+39    </queries>
+40
+41    <uses-feature
+41-->[com.google.android.gms:play-services-maps:18.0.1] /Users/macair/.gradle/caches/transforms-2/files-2.1/d7ec8feb1893195b5a85b9383c4a010e/jetified-play-services-maps-18.0.1/AndroidManifest.xml:26:5-28:35
+42        android:glEsVersion="0x00020000"
+42-->[com.google.android.gms:play-services-maps:18.0.1] /Users/macair/.gradle/caches/transforms-2/files-2.1/d7ec8feb1893195b5a85b9383c4a010e/jetified-play-services-maps-18.0.1/AndroidManifest.xml:27:9-41
+43        android:required="true" />
+43-->[com.google.android.gms:play-services-maps:18.0.1] /Users/macair/.gradle/caches/transforms-2/files-2.1/d7ec8feb1893195b5a85b9383c4a010e/jetified-play-services-maps-18.0.1/AndroidManifest.xml:28:9-32
+44
+45    <uses-permission android:name="com.google.android.finsky.permission.BIND_GET_INSTALL_REFERRER_SERVICE" /> <!-- Include required permissions for Advertising Id -->
+45-->[com.google.android.gms:play-services-measurement:20.0.2] /Users/macair/.gradle/caches/transforms-2/files-2.1/28beb2256965eb35a224a406678549fa/jetified-play-services-measurement-20.0.2/AndroidManifest.xml:26:5-110
+45-->[com.google.android.gms:play-services-measurement:20.0.2] /Users/macair/.gradle/caches/transforms-2/files-2.1/28beb2256965eb35a224a406678549fa/jetified-play-services-measurement-20.0.2/AndroidManifest.xml:26:22-107
+46    <uses-permission android:name="com.google.android.gms.permission.AD_ID" />
+46-->[com.google.android.gms:play-services-ads-identifier:18.0.0] /Users/macair/.gradle/caches/transforms-2/files-2.1/cf942ca3b840390bb1e59f46f122f91c/jetified-play-services-ads-identifier-18.0.0/AndroidManifest.xml:23:5-79
+46-->[com.google.android.gms:play-services-ads-identifier:18.0.0] /Users/macair/.gradle/caches/transforms-2/files-2.1/cf942ca3b840390bb1e59f46f122f91c/jetified-play-services-ads-identifier-18.0.0/AndroidManifest.xml:23:22-76
+47
+48    <application
+48-->/Users/macair/Downloads/indecomobile/app/src/main/AndroidManifest.xml:22:5-222:19
+49        android:allowBackup="true"
+49-->/Users/macair/Downloads/indecomobile/app/src/main/AndroidManifest.xml:23:9-35
+50        android:appComponentFactory="androidx.core.app.CoreComponentFactory"
+50-->[androidx.core:core:1.7.0] /Users/macair/.gradle/caches/transforms-2/files-2.1/1f3d5f7855b02048ceb81d4ad163d9f1/core-1.7.0/AndroidManifest.xml:24:18-86
+51        android:debuggable="true"
+52        android:icon="@drawable/icmmslogo"
+52-->/Users/macair/Downloads/indecomobile/app/src/main/AndroidManifest.xml:24:9-43
+53        android:label="@string/app_name"
+53-->/Users/macair/Downloads/indecomobile/app/src/main/AndroidManifest.xml:25:9-41
+54        android:largeHeap="true"
+54-->/Users/macair/Downloads/indecomobile/app/src/main/AndroidManifest.xml:26:9-33
+55        android:networkSecurityConfig="@xml/security_config"
+55-->/Users/macair/Downloads/indecomobile/app/src/main/AndroidManifest.xml:27:9-61
+56        android:requestLegacyExternalStorage="true"
+56-->/Users/macair/Downloads/indecomobile/app/src/main/AndroidManifest.xml:28:9-52
+57        android:roundIcon="@drawable/icmmslogo"
+57-->/Users/macair/Downloads/indecomobile/app/src/main/AndroidManifest.xml:29:9-48
+58        android:supportsRtl="true"
+58-->/Users/macair/Downloads/indecomobile/app/src/main/AndroidManifest.xml:30:9-35
+59        android:testOnly="true"
+60        android:theme="@style/Theme.LoginActivity" >
+60-->/Users/macair/Downloads/indecomobile/app/src/main/AndroidManifest.xml:31:9-51
+61        <activity
+61-->/Users/macair/Downloads/indecomobile/app/src/main/AndroidManifest.xml:33:9-35:40
+62            android:name="com.synergyyy.PredictiveMaintenence.CreatePredictiveActivity"
+62-->/Users/macair/Downloads/indecomobile/app/src/main/AndroidManifest.xml:34:13-75
+63            android:exported="false" />
+63-->/Users/macair/Downloads/indecomobile/app/src/main/AndroidManifest.xml:35:13-37
+64        <activity
+64-->/Users/macair/Downloads/indecomobile/app/src/main/AndroidManifest.xml:36:9-53:20
+65            android:name="com.synergyyy.General.NewPasswordActivity"
+65-->/Users/macair/Downloads/indecomobile/app/src/main/AndroidManifest.xml:37:13-56
+66            android:exported="true"
+66-->/Users/macair/Downloads/indecomobile/app/src/main/AndroidManifest.xml:38:13-36
+67            android:launchMode="singleTop"
+67-->/Users/macair/Downloads/indecomobile/app/src/main/AndroidManifest.xml:39:13-43
+68            android:screenOrientation="portrait" >
+68-->/Users/macair/Downloads/indecomobile/app/src/main/AndroidManifest.xml:40:13-49
+69            <intent-filter>
+69-->/Users/macair/Downloads/indecomobile/app/src/main/AndroidManifest.xml:41:13-52:29
+70                <action android:name="android.intent.action.VIEW" />
+70-->/Users/macair/Downloads/indecomobile/app/src/main/AndroidManifest.xml:42:17-69
+70-->/Users/macair/Downloads/indecomobile/app/src/main/AndroidManifest.xml:42:25-66
+71
+72                <category android:name="android.intent.category.DEFAULT" />
+72-->/Users/macair/Downloads/indecomobile/app/src/main/AndroidManifest.xml:44:17-76
+72-->/Users/macair/Downloads/indecomobile/app/src/main/AndroidManifest.xml:44:27-73
+73                <category android:name="android.intent.category.BROWSABLE" />
+73-->/Users/macair/Downloads/indecomobile/app/src/main/AndroidManifest.xml:45:17-78
+73-->/Users/macair/Downloads/indecomobile/app/src/main/AndroidManifest.xml:45:27-75
+74
+75                <data
+75-->/Users/macair/Downloads/indecomobile/app/src/main/AndroidManifest.xml:47:17-51:45
+76                    android:host="103.26.41.230"
+76-->/Users/macair/Downloads/indecomobile/app/src/main/AndroidManifest.xml:48:21-49
+77                    android:path="/i-cmmstest/api/reset_password"
+77-->/Users/macair/Downloads/indecomobile/app/src/main/AndroidManifest.xml:49:21-66
+78                    android:port="8086"
+78-->/Users/macair/Downloads/indecomobile/app/src/main/AndroidManifest.xml:50:21-40
+79                    android:scheme="http" />
+79-->/Users/macair/Downloads/indecomobile/app/src/main/AndroidManifest.xml:51:21-42
+80            </intent-filter>
+81        </activity>
+82        <activity
+82-->/Users/macair/Downloads/indecomobile/app/src/main/AndroidManifest.xml:54:9-57:52
+83            android:name="com.synergyyy.SearchTasks.TaskSearchActivity"
+83-->/Users/macair/Downloads/indecomobile/app/src/main/AndroidManifest.xml:55:13-59
+84            android:launchMode="singleTop"
+84-->/Users/macair/Downloads/indecomobile/app/src/main/AndroidManifest.xml:56:13-43
+85            android:screenOrientation="portrait" />
+85-->/Users/macair/Downloads/indecomobile/app/src/main/AndroidManifest.xml:57:13-49
+86        <activity
+86-->/Users/macair/Downloads/indecomobile/app/src/main/AndroidManifest.xml:58:9-61:52
+87            android:name="com.synergyyy.SearchTasks.UploadImagesTaskActivity"
+87-->/Users/macair/Downloads/indecomobile/app/src/main/AndroidManifest.xml:59:13-65
+88            android:launchMode="singleTop"
+88-->/Users/macair/Downloads/indecomobile/app/src/main/AndroidManifest.xml:60:13-43
+89            android:screenOrientation="portrait" />
+89-->/Users/macair/Downloads/indecomobile/app/src/main/AndroidManifest.xml:61:13-49
+90        <activity
+90-->/Users/macair/Downloads/indecomobile/app/src/main/AndroidManifest.xml:62:9-65:52
+91            android:name="com.synergyyy.PurchaseOder.ViewPurchaseOnly"
+91-->/Users/macair/Downloads/indecomobile/app/src/main/AndroidManifest.xml:63:13-58
+92            android:launchMode="singleTop"
+92-->/Users/macair/Downloads/indecomobile/app/src/main/AndroidManifest.xml:64:13-43
+93            android:screenOrientation="portrait" />
+93-->/Users/macair/Downloads/indecomobile/app/src/main/AndroidManifest.xml:65:13-49
+94        <activity
+94-->/Users/macair/Downloads/indecomobile/app/src/main/AndroidManifest.xml:66:9-69:52
+95            android:name="com.synergyyy.UploadPdf.SearchForQuote"
+95-->/Users/macair/Downloads/indecomobile/app/src/main/AndroidManifest.xml:67:13-53
+96            android:launchMode="singleTop"
+96-->/Users/macair/Downloads/indecomobile/app/src/main/AndroidManifest.xml:68:13-43
+97            android:screenOrientation="portrait" />
+97-->/Users/macair/Downloads/indecomobile/app/src/main/AndroidManifest.xml:69:13-49
+98        <activity
+98-->/Users/macair/Downloads/indecomobile/app/src/main/AndroidManifest.xml:70:9-73:52
+99            android:name="com.synergyyy.SearchTasks.ImagesActivity"
+99-->/Users/macair/Downloads/indecomobile/app/src/main/AndroidManifest.xml:71:13-55
+100            android:launchMode="singleTop"
+100-->/Users/macair/Downloads/indecomobile/app/src/main/AndroidManifest.xml:72:13-43
+101            android:screenOrientation="portrait" />
+101-->/Users/macair/Downloads/indecomobile/app/src/main/AndroidManifest.xml:73:13-49
+102        <activity
+102-->/Users/macair/Downloads/indecomobile/app/src/main/AndroidManifest.xml:74:9-77:52
+103            android:name="com.synergyyy.General.MlQrScannerActivity"
+103-->/Users/macair/Downloads/indecomobile/app/src/main/AndroidManifest.xml:75:13-56
+104            android:launchMode="singleTop"
+104-->/Users/macair/Downloads/indecomobile/app/src/main/AndroidManifest.xml:76:13-43
+105            android:screenOrientation="portrait" />
+105-->/Users/macair/Downloads/indecomobile/app/src/main/AndroidManifest.xml:77:13-49
+106        <activity
+106-->/Users/macair/Downloads/indecomobile/app/src/main/AndroidManifest.xml:78:9-87:20
+107            android:name="com.synergyyy.Search.EditFaultOnSearchActivity"
+107-->/Users/macair/Downloads/indecomobile/app/src/main/AndroidManifest.xml:79:13-61
+108            android:launchMode="singleTop"
+108-->/Users/macair/Downloads/indecomobile/app/src/main/AndroidManifest.xml:80:13-43
+109            android:screenOrientation="portrait" >
+109-->/Users/macair/Downloads/indecomobile/app/src/main/AndroidManifest.xml:81:13-49
+110            <intent-filter>
+110-->/Users/macair/Downloads/indecomobile/app/src/main/AndroidManifest.xml:82:13-86:29
+111                <action android:name="EditFaultReportActivity" />
+111-->/Users/macair/Downloads/indecomobile/app/src/main/AndroidManifest.xml:83:17-66
+111-->/Users/macair/Downloads/indecomobile/app/src/main/AndroidManifest.xml:83:25-63
+112
+113                <category android:name="android.intent.category.DEFAULT" />
+113-->/Users/macair/Downloads/indecomobile/app/src/main/AndroidManifest.xml:44:17-76
+113-->/Users/macair/Downloads/indecomobile/app/src/main/AndroidManifest.xml:44:27-73
+114            </intent-filter>
+115        </activity>
+116        <activity
+116-->/Users/macair/Downloads/indecomobile/app/src/main/AndroidManifest.xml:88:9-91:52
+117            android:name="com.synergyyy.SearchTasks.UploadImageTask"
+117-->/Users/macair/Downloads/indecomobile/app/src/main/AndroidManifest.xml:89:13-56
+118            android:launchMode="singleTop"
+118-->/Users/macair/Downloads/indecomobile/app/src/main/AndroidManifest.xml:90:13-43
+119            android:screenOrientation="portrait" />
+119-->/Users/macair/Downloads/indecomobile/app/src/main/AndroidManifest.xml:91:13-49
+120        <activity
+120-->/Users/macair/Downloads/indecomobile/app/src/main/AndroidManifest.xml:92:9-95:52
+121            android:name="com.synergyyy.Messages.ChatActivity"
+121-->/Users/macair/Downloads/indecomobile/app/src/main/AndroidManifest.xml:93:13-50
+122            android:launchMode="singleTop"
+122-->/Users/macair/Downloads/indecomobile/app/src/main/AndroidManifest.xml:94:13-43
+123            android:screenOrientation="portrait" />
+123-->/Users/macair/Downloads/indecomobile/app/src/main/AndroidManifest.xml:95:13-49
+124        <activity
+124-->/Users/macair/Downloads/indecomobile/app/src/main/AndroidManifest.xml:96:9-99:52
+125            android:name="com.synergyyy.Messages.MessagesActivity"
+125-->/Users/macair/Downloads/indecomobile/app/src/main/AndroidManifest.xml:97:13-54
+126            android:launchMode="singleTop"
+126-->/Users/macair/Downloads/indecomobile/app/src/main/AndroidManifest.xml:98:13-43
+127            android:screenOrientation="portrait" />
+127-->/Users/macair/Downloads/indecomobile/app/src/main/AndroidManifest.xml:99:13-49
+128        <activity
+128-->/Users/macair/Downloads/indecomobile/app/src/main/AndroidManifest.xml:100:9-103:52
+129            android:name="com.synergyyy.General.MyBaseActivity"
+129-->/Users/macair/Downloads/indecomobile/app/src/main/AndroidManifest.xml:101:13-51
+130            android:launchMode="singleTop"
+130-->/Users/macair/Downloads/indecomobile/app/src/main/AndroidManifest.xml:102:13-43
+131            android:screenOrientation="portrait" />
+131-->/Users/macair/Downloads/indecomobile/app/src/main/AndroidManifest.xml:103:13-49
+132        <activity
+132-->/Users/macair/Downloads/indecomobile/app/src/main/AndroidManifest.xml:104:9-107:52
+133            android:name="com.synergyyy.ScanLocation.ScanLocation"
+133-->/Users/macair/Downloads/indecomobile/app/src/main/AndroidManifest.xml:105:13-54
+134            android:launchMode="singleTop"
+134-->/Users/macair/Downloads/indecomobile/app/src/main/AndroidManifest.xml:106:13-43
+135            android:screenOrientation="portrait" />
+135-->/Users/macair/Downloads/indecomobile/app/src/main/AndroidManifest.xml:107:13-49
+136        <activity
+136-->/Users/macair/Downloads/indecomobile/app/src/main/AndroidManifest.xml:108:9-116:20
+137            android:name="com.synergyyy.General.SplashScreenActivity"
+137-->/Users/macair/Downloads/indecomobile/app/src/main/AndroidManifest.xml:109:13-57
+138            android:screenOrientation="portrait" >
+138-->/Users/macair/Downloads/indecomobile/app/src/main/AndroidManifest.xml:110:13-49
+139            <intent-filter>
+139-->/Users/macair/Downloads/indecomobile/app/src/main/AndroidManifest.xml:111:13-115:29
+140                <action android:name="android.intent.action.MAIN" />
+140-->/Users/macair/Downloads/indecomobile/app/src/main/AndroidManifest.xml:112:17-69
+140-->/Users/macair/Downloads/indecomobile/app/src/main/AndroidManifest.xml:112:25-66
+141
+142                <category android:name="android.intent.category.LAUNCHER" />
+142-->/Users/macair/Downloads/indecomobile/app/src/main/AndroidManifest.xml:114:17-77
+142-->/Users/macair/Downloads/indecomobile/app/src/main/AndroidManifest.xml:114:27-74
+143            </intent-filter>
+144        </activity>
+145        <activity
+145-->/Users/macair/Downloads/indecomobile/app/src/main/AndroidManifest.xml:117:9-120:52
+146            android:name="com.synergyyy.SearchTasks.SearchTaskActivity"
+146-->/Users/macair/Downloads/indecomobile/app/src/main/AndroidManifest.xml:118:13-59
+147            android:launchMode="singleTop"
+147-->/Users/macair/Downloads/indecomobile/app/src/main/AndroidManifest.xml:119:13-43
+148            android:screenOrientation="portrait" />
+148-->/Users/macair/Downloads/indecomobile/app/src/main/AndroidManifest.xml:120:13-49
+149        <activity
+149-->/Users/macair/Downloads/indecomobile/app/src/main/AndroidManifest.xml:121:9-130:20
+150            android:name="com.synergyyy.PurchaseOder.UploadPurchasePdf"
+150-->/Users/macair/Downloads/indecomobile/app/src/main/AndroidManifest.xml:122:13-59
+151            android:launchMode="singleTop"
+151-->/Users/macair/Downloads/indecomobile/app/src/main/AndroidManifest.xml:123:13-43
+152            android:screenOrientation="portrait" >
+152-->/Users/macair/Downloads/indecomobile/app/src/main/AndroidManifest.xml:124:13-49
+153            <intent-filter>
+153-->/Users/macair/Downloads/indecomobile/app/src/main/AndroidManifest.xml:125:13-129:29
+154                <action android:name="PurchaseOrderActivity" />
+154-->/Users/macair/Downloads/indecomobile/app/src/main/AndroidManifest.xml:126:17-64
+154-->/Users/macair/Downloads/indecomobile/app/src/main/AndroidManifest.xml:126:25-61
+155
+156                <category android:name="android.intent.category.DEFAULT" />
+156-->/Users/macair/Downloads/indecomobile/app/src/main/AndroidManifest.xml:44:17-76
+156-->/Users/macair/Downloads/indecomobile/app/src/main/AndroidManifest.xml:44:27-73
+157            </intent-filter>
+158        </activity>
+159        <activity
+159-->/Users/macair/Downloads/indecomobile/app/src/main/AndroidManifest.xml:131:9-134:52
+160            android:name="com.synergyyy.PurchaseOder.SearchForPurchase"
+160-->/Users/macair/Downloads/indecomobile/app/src/main/AndroidManifest.xml:132:13-59
+161            android:launchMode="singleTop"
+161-->/Users/macair/Downloads/indecomobile/app/src/main/AndroidManifest.xml:133:13-43
+162            android:screenOrientation="portrait" />
+162-->/Users/macair/Downloads/indecomobile/app/src/main/AndroidManifest.xml:134:13-49
+163        <activity
+163-->/Users/macair/Downloads/indecomobile/app/src/main/AndroidManifest.xml:135:9-138:52
+164            android:name="com.synergyyy.Otp.OtpActivity"
+164-->/Users/macair/Downloads/indecomobile/app/src/main/AndroidManifest.xml:136:13-44
+165            android:launchMode="singleTop"
+165-->/Users/macair/Downloads/indecomobile/app/src/main/AndroidManifest.xml:137:13-43
+166            android:screenOrientation="portrait" />
+166-->/Users/macair/Downloads/indecomobile/app/src/main/AndroidManifest.xml:138:13-49
+167        <activity
+167-->/Users/macair/Downloads/indecomobile/app/src/main/AndroidManifest.xml:139:9-142:52
+168            android:name="com.synergyyy.Search.UploadFile"
+168-->/Users/macair/Downloads/indecomobile/app/src/main/AndroidManifest.xml:140:13-46
+169            android:launchMode="singleTop"
+169-->/Users/macair/Downloads/indecomobile/app/src/main/AndroidManifest.xml:141:13-43
+170            android:screenOrientation="portrait" />
+170-->/Users/macair/Downloads/indecomobile/app/src/main/AndroidManifest.xml:142:13-49
+171        <activity
+171-->/Users/macair/Downloads/indecomobile/app/src/main/AndroidManifest.xml:143:9-146:52
+172            android:name="com.synergyyy.Search.EditFaultReportActivity"
+172-->/Users/macair/Downloads/indecomobile/app/src/main/AndroidManifest.xml:144:13-59
+173            android:launchMode="singleTop"
+173-->/Users/macair/Downloads/indecomobile/app/src/main/AndroidManifest.xml:145:13-43
+174            android:screenOrientation="portrait" />
+174-->/Users/macair/Downloads/indecomobile/app/src/main/AndroidManifest.xml:146:13-49
+175        <activity
+175-->/Users/macair/Downloads/indecomobile/app/src/main/AndroidManifest.xml:147:9-150:52
+176            android:name="com.synergyyy.Setting.SettingActivity"
+176-->/Users/macair/Downloads/indecomobile/app/src/main/AndroidManifest.xml:148:13-52
+177            android:launchMode="singleTop"
+177-->/Users/macair/Downloads/indecomobile/app/src/main/AndroidManifest.xml:149:13-43
+178            android:screenOrientation="portrait" />
+178-->/Users/macair/Downloads/indecomobile/app/src/main/AndroidManifest.xml:150:13-49
+179        <activity
+179-->/Users/macair/Downloads/indecomobile/app/src/main/AndroidManifest.xml:151:9-154:52
+180            android:name="com.synergyyy.EquipmentSearch.CheckListActivity"
+180-->/Users/macair/Downloads/indecomobile/app/src/main/AndroidManifest.xml:152:13-62
+181            android:launchMode="singleTop"
+181-->/Users/macair/Downloads/indecomobile/app/src/main/AndroidManifest.xml:153:13-43
+182            android:screenOrientation="portrait" />
+182-->/Users/macair/Downloads/indecomobile/app/src/main/AndroidManifest.xml:154:13-49
+183        <activity
+183-->/Users/macair/Downloads/indecomobile/app/src/main/AndroidManifest.xml:155:9-163:20
+184            android:name="com.synergyyy.UploadPdf.UploadPdf"
+184-->/Users/macair/Downloads/indecomobile/app/src/main/AndroidManifest.xml:156:13-48
+185            android:screenOrientation="portrait" >
+185-->/Users/macair/Downloads/indecomobile/app/src/main/AndroidManifest.xml:157:13-49
+186            <intent-filter>
+186-->/Users/macair/Downloads/indecomobile/app/src/main/AndroidManifest.xml:158:13-162:29
+187                <action android:name="UploadQuotationActivity" />
+187-->/Users/macair/Downloads/indecomobile/app/src/main/AndroidManifest.xml:159:17-66
+187-->/Users/macair/Downloads/indecomobile/app/src/main/AndroidManifest.xml:159:25-63
+188
+189                <category android:name="android.intent.category.DEFAULT" />
+189-->/Users/macair/Downloads/indecomobile/app/src/main/AndroidManifest.xml:44:17-76
+189-->/Users/macair/Downloads/indecomobile/app/src/main/AndroidManifest.xml:44:27-73
+190            </intent-filter>
+191        </activity>
+192        <activity
+192-->/Users/macair/Downloads/indecomobile/app/src/main/AndroidManifest.xml:164:9-173:20
+193            android:name="com.synergyyy.EquipmentSearch.PmTaskActivity"
+193-->/Users/macair/Downloads/indecomobile/app/src/main/AndroidManifest.xml:165:13-59
+194            android:launchMode="singleTop"
+194-->/Users/macair/Downloads/indecomobile/app/src/main/AndroidManifest.xml:166:13-43
+195            android:screenOrientation="portrait" >
+195-->/Users/macair/Downloads/indecomobile/app/src/main/AndroidManifest.xml:167:13-49
+196            <intent-filter>
+196-->/Users/macair/Downloads/indecomobile/app/src/main/AndroidManifest.xml:168:13-172:29
+197                <action android:name="PmTaskActivity" />
+197-->/Users/macair/Downloads/indecomobile/app/src/main/AndroidManifest.xml:169:17-57
+197-->/Users/macair/Downloads/indecomobile/app/src/main/AndroidManifest.xml:169:25-54
+198
+199                <category android:name="android.intent.category.DEFAULT" />
+199-->/Users/macair/Downloads/indecomobile/app/src/main/AndroidManifest.xml:44:17-76
+199-->/Users/macair/Downloads/indecomobile/app/src/main/AndroidManifest.xml:44:27-73
+200            </intent-filter>
+201        </activity>
+202        <activity
+202-->/Users/macair/Downloads/indecomobile/app/src/main/AndroidManifest.xml:174:9-177:52
+203            android:name="com.synergyyy.Search.EquipmentSearchActivityforEdit"
+203-->/Users/macair/Downloads/indecomobile/app/src/main/AndroidManifest.xml:175:13-66
+204            android:launchMode="singleTop"
+204-->/Users/macair/Downloads/indecomobile/app/src/main/AndroidManifest.xml:176:13-43
+205            android:screenOrientation="portrait" />
+205-->/Users/macair/Downloads/indecomobile/app/src/main/AndroidManifest.xml:177:13-49
+206        <activity
+206-->/Users/macair/Downloads/indecomobile/app/src/main/AndroidManifest.xml:178:9-182:51
+207            android:name="com.synergyyy.General.MainActivityLogin"
+207-->/Users/macair/Downloads/indecomobile/app/src/main/AndroidManifest.xml:179:13-54
+208            android:exported="true"
+208-->/Users/macair/Downloads/indecomobile/app/src/main/AndroidManifest.xml:180:13-36
+209            android:launchMode="singleTop"
+209-->/Users/macair/Downloads/indecomobile/app/src/main/AndroidManifest.xml:181:13-43
+210            android:screenOrientation="portrait" />
+210-->/Users/macair/Downloads/indecomobile/app/src/main/AndroidManifest.xml:182:13-49
+211        <activity
+211-->/Users/macair/Downloads/indecomobile/app/src/main/AndroidManifest.xml:183:9-186:52
+212            android:name="com.synergyyy.EquipmentSearch.EquipmentScanActivity"
+212-->/Users/macair/Downloads/indecomobile/app/src/main/AndroidManifest.xml:184:13-66
+213            android:launchMode="singleTop"
+213-->/Users/macair/Downloads/indecomobile/app/src/main/AndroidManifest.xml:185:13-43
+214            android:screenOrientation="portrait" />
+214-->/Users/macair/Downloads/indecomobile/app/src/main/AndroidManifest.xml:186:13-49
+215        <activity
+215-->/Users/macair/Downloads/indecomobile/app/src/main/AndroidManifest.xml:187:9-190:52
+216            android:name="com.synergyyy.Search.Search"
+216-->/Users/macair/Downloads/indecomobile/app/src/main/AndroidManifest.xml:188:13-42
+217            android:launchMode="singleTop"
+217-->/Users/macair/Downloads/indecomobile/app/src/main/AndroidManifest.xml:189:13-43
+218            android:screenOrientation="portrait" />
+218-->/Users/macair/Downloads/indecomobile/app/src/main/AndroidManifest.xml:190:13-49
+219        <activity
+219-->/Users/macair/Downloads/indecomobile/app/src/main/AndroidManifest.xml:191:9-194:52
+220            android:name="com.synergyyy.EquipmentSearch.QrDetails"
+220-->/Users/macair/Downloads/indecomobile/app/src/main/AndroidManifest.xml:192:13-54
+221            android:launchMode="singleTop"
+221-->/Users/macair/Downloads/indecomobile/app/src/main/AndroidManifest.xml:193:13-43
+222            android:screenOrientation="portrait" />
+222-->/Users/macair/Downloads/indecomobile/app/src/main/AndroidManifest.xml:194:13-49
+223        <activity
+223-->/Users/macair/Downloads/indecomobile/app/src/main/AndroidManifest.xml:195:9-198:52
+224            android:name="com.synergyyy.FaultReport.FaultReportActivity"
+224-->/Users/macair/Downloads/indecomobile/app/src/main/AndroidManifest.xml:196:13-60
+225            android:launchMode="singleTop"
+225-->/Users/macair/Downloads/indecomobile/app/src/main/AndroidManifest.xml:197:13-43
+226            android:screenOrientation="portrait" />
+226-->/Users/macair/Downloads/indecomobile/app/src/main/AndroidManifest.xml:198:13-49
+227        <activity
+227-->/Users/macair/Downloads/indecomobile/app/src/main/AndroidManifest.xml:199:9-202:52
+228            android:name="com.synergyyy.Workspace.WorkspaceActivity"
+228-->/Users/macair/Downloads/indecomobile/app/src/main/AndroidManifest.xml:200:13-56
+229            android:launchMode="singleTop"
+229-->/Users/macair/Downloads/indecomobile/app/src/main/AndroidManifest.xml:201:13-43
+230            android:screenOrientation="portrait" />
+230-->/Users/macair/Downloads/indecomobile/app/src/main/AndroidManifest.xml:202:13-49
+231
+232        <service android:name="com.synergyyy.Services.MyFirebaseInstanceService" >
+232-->/Users/macair/Downloads/indecomobile/app/src/main/AndroidManifest.xml:204:9-209:19
+232-->/Users/macair/Downloads/indecomobile/app/src/main/AndroidManifest.xml:204:18-68
+233            <intent-filter>
+233-->/Users/macair/Downloads/indecomobile/app/src/main/AndroidManifest.xml:205:13-208:29
+234                <action android:name="com.google.firebase.MESSAGING_EVENT" />
+234-->/Users/macair/Downloads/indecomobile/app/src/main/AndroidManifest.xml:206:17-78
+234-->/Users/macair/Downloads/indecomobile/app/src/main/AndroidManifest.xml:206:25-75
+235                <action android:name="com.google.firebase.INSTANCE_ID_EVENT" />
+235-->/Users/macair/Downloads/indecomobile/app/src/main/AndroidManifest.xml:207:17-80
+235-->/Users/macair/Downloads/indecomobile/app/src/main/AndroidManifest.xml:207:25-77
+236            </intent-filter>
+237        </service>
+238        <!--
+239        <service
+240            android:name="com.synergyyy.General.LocationService"
+241            android:enabled="true"
+242            android:exported="false" />
+243        -->
+244        <meta-data
+244-->/Users/macair/Downloads/indecomobile/app/src/main/AndroidManifest.xml:216:9-218:57
+245            android:name="preloaded_fonts"
+245-->/Users/macair/Downloads/indecomobile/app/src/main/AndroidManifest.xml:217:13-43
+246            android:resource="@array/preloaded_fonts" />
+246-->/Users/macair/Downloads/indecomobile/app/src/main/AndroidManifest.xml:218:13-54
+247        <meta-data
+247-->/Users/macair/Downloads/indecomobile/app/src/main/AndroidManifest.xml:219:9-221:39
+248            android:name="com.onesignal.BadgeCount"
+248-->/Users/macair/Downloads/indecomobile/app/src/main/AndroidManifest.xml:220:13-52
+249            android:value="DISABLE" />
+249-->/Users/macair/Downloads/indecomobile/app/src/main/AndroidManifest.xml:221:13-36
+250
+251        <activity
+251-->[com.github.chuckerteam.chucker:library:3.4.0] /Users/macair/.gradle/caches/transforms-2/files-2.1/51947166542d1c2020215332b582702b/jetified-library-3.4.0/AndroidManifest.xml:16:9-21:52
+252            android:name="com.chuckerteam.chucker.internal.ui.MainActivity"
+252-->[com.github.chuckerteam.chucker:library:3.4.0] /Users/macair/.gradle/caches/transforms-2/files-2.1/51947166542d1c2020215332b582702b/jetified-library-3.4.0/AndroidManifest.xml:17:13-76
+253            android:label="@string/chucker_name"
+253-->[com.github.chuckerteam.chucker:library:3.4.0] /Users/macair/.gradle/caches/transforms-2/files-2.1/51947166542d1c2020215332b582702b/jetified-library-3.4.0/AndroidManifest.xml:18:13-49
+254            android:launchMode="singleTask"
+254-->[com.github.chuckerteam.chucker:library:3.4.0] /Users/macair/.gradle/caches/transforms-2/files-2.1/51947166542d1c2020215332b582702b/jetified-library-3.4.0/AndroidManifest.xml:19:13-44
+255            android:taskAffinity="com.chuckerteam.chucker.task"
+255-->[com.github.chuckerteam.chucker:library:3.4.0] /Users/macair/.gradle/caches/transforms-2/files-2.1/51947166542d1c2020215332b582702b/jetified-library-3.4.0/AndroidManifest.xml:20:13-64
+256            android:theme="@style/Chucker.Theme" />
+256-->[com.github.chuckerteam.chucker:library:3.4.0] /Users/macair/.gradle/caches/transforms-2/files-2.1/51947166542d1c2020215332b582702b/jetified-library-3.4.0/AndroidManifest.xml:21:13-49
+257        <activity
+257-->[com.github.chuckerteam.chucker:library:3.4.0] /Users/macair/.gradle/caches/transforms-2/files-2.1/51947166542d1c2020215332b582702b/jetified-library-3.4.0/AndroidManifest.xml:22:9-25:52
+258            android:name="com.chuckerteam.chucker.internal.ui.transaction.TransactionActivity"
+258-->[com.github.chuckerteam.chucker:library:3.4.0] /Users/macair/.gradle/caches/transforms-2/files-2.1/51947166542d1c2020215332b582702b/jetified-library-3.4.0/AndroidManifest.xml:23:13-95
+259            android:parentActivityName="com.chuckerteam.chucker.internal.ui.MainActivity"
+259-->[com.github.chuckerteam.chucker:library:3.4.0] /Users/macair/.gradle/caches/transforms-2/files-2.1/51947166542d1c2020215332b582702b/jetified-library-3.4.0/AndroidManifest.xml:24:13-90
+260            android:theme="@style/Chucker.Theme" />
+260-->[com.github.chuckerteam.chucker:library:3.4.0] /Users/macair/.gradle/caches/transforms-2/files-2.1/51947166542d1c2020215332b582702b/jetified-library-3.4.0/AndroidManifest.xml:25:13-49
+261        <activity
+261-->[com.github.chuckerteam.chucker:library:3.4.0] /Users/macair/.gradle/caches/transforms-2/files-2.1/51947166542d1c2020215332b582702b/jetified-library-3.4.0/AndroidManifest.xml:26:9-29:52
+262            android:name="com.chuckerteam.chucker.internal.ui.throwable.ThrowableActivity"
+262-->[com.github.chuckerteam.chucker:library:3.4.0] /Users/macair/.gradle/caches/transforms-2/files-2.1/51947166542d1c2020215332b582702b/jetified-library-3.4.0/AndroidManifest.xml:27:13-91
+263            android:parentActivityName="com.chuckerteam.chucker.internal.ui.MainActivity"
+263-->[com.github.chuckerteam.chucker:library:3.4.0] /Users/macair/.gradle/caches/transforms-2/files-2.1/51947166542d1c2020215332b582702b/jetified-library-3.4.0/AndroidManifest.xml:28:13-90
+264            android:theme="@style/Chucker.Theme" />
+264-->[com.github.chuckerteam.chucker:library:3.4.0] /Users/macair/.gradle/caches/transforms-2/files-2.1/51947166542d1c2020215332b582702b/jetified-library-3.4.0/AndroidManifest.xml:29:13-49
+265
+266        <service
+266-->[com.github.chuckerteam.chucker:library:3.4.0] /Users/macair/.gradle/caches/transforms-2/files-2.1/51947166542d1c2020215332b582702b/jetified-library-3.4.0/AndroidManifest.xml:31:9-33:40
+267            android:name="com.chuckerteam.chucker.internal.support.ClearDatabaseService"
+267-->[com.github.chuckerteam.chucker:library:3.4.0] /Users/macair/.gradle/caches/transforms-2/files-2.1/51947166542d1c2020215332b582702b/jetified-library-3.4.0/AndroidManifest.xml:32:13-89
+268            android:exported="false" />
+268-->[com.github.chuckerteam.chucker:library:3.4.0] /Users/macair/.gradle/caches/transforms-2/files-2.1/51947166542d1c2020215332b582702b/jetified-library-3.4.0/AndroidManifest.xml:33:13-37
+269
+270        <provider
+270-->[com.github.chuckerteam.chucker:library:3.4.0] /Users/macair/.gradle/caches/transforms-2/files-2.1/51947166542d1c2020215332b582702b/jetified-library-3.4.0/AndroidManifest.xml:35:9-43:20
+271            android:name="com.chuckerteam.chucker.internal.support.ChuckerFileProvider"
+271-->[com.github.chuckerteam.chucker:library:3.4.0] /Users/macair/.gradle/caches/transforms-2/files-2.1/51947166542d1c2020215332b582702b/jetified-library-3.4.0/AndroidManifest.xml:36:13-88
+272            android:authorities="com.synergyyy.com.chuckerteam.chucker.provider"
+272-->[com.github.chuckerteam.chucker:library:3.4.0] /Users/macair/.gradle/caches/transforms-2/files-2.1/51947166542d1c2020215332b582702b/jetified-library-3.4.0/AndroidManifest.xml:37:13-84
+273            android:exported="false"
+273-->[com.github.chuckerteam.chucker:library:3.4.0] /Users/macair/.gradle/caches/transforms-2/files-2.1/51947166542d1c2020215332b582702b/jetified-library-3.4.0/AndroidManifest.xml:38:13-37
+274            android:grantUriPermissions="true" >
+274-->[com.github.chuckerteam.chucker:library:3.4.0] /Users/macair/.gradle/caches/transforms-2/files-2.1/51947166542d1c2020215332b582702b/jetified-library-3.4.0/AndroidManifest.xml:39:13-47
+275            <meta-data
+275-->[com.github.chuckerteam.chucker:library:3.4.0] /Users/macair/.gradle/caches/transforms-2/files-2.1/51947166542d1c2020215332b582702b/jetified-library-3.4.0/AndroidManifest.xml:40:13-42:66
+276                android:name="android.support.FILE_PROVIDER_PATHS"
+276-->[com.github.chuckerteam.chucker:library:3.4.0] /Users/macair/.gradle/caches/transforms-2/files-2.1/51947166542d1c2020215332b582702b/jetified-library-3.4.0/AndroidManifest.xml:41:17-67
+277                android:resource="@xml/chucker_provider_paths" />
+277-->[com.github.chuckerteam.chucker:library:3.4.0] /Users/macair/.gradle/caches/transforms-2/files-2.1/51947166542d1c2020215332b582702b/jetified-library-3.4.0/AndroidManifest.xml:42:17-63
+278        </provider> <!-- Needs to be explicitly declared on P+ -->
+279        <uses-library
+279-->[com.google.android.gms:play-services-maps:18.0.1] /Users/macair/.gradle/caches/transforms-2/files-2.1/d7ec8feb1893195b5a85b9383c4a010e/jetified-play-services-maps-18.0.1/AndroidManifest.xml:39:9-41:40
+280            android:name="org.apache.http.legacy"
+280-->[com.google.android.gms:play-services-maps:18.0.1] /Users/macair/.gradle/caches/transforms-2/files-2.1/d7ec8feb1893195b5a85b9383c4a010e/jetified-play-services-maps-18.0.1/AndroidManifest.xml:40:13-50
+281            android:required="false" />
+281-->[com.google.android.gms:play-services-maps:18.0.1] /Users/macair/.gradle/caches/transforms-2/files-2.1/d7ec8feb1893195b5a85b9383c4a010e/jetified-play-services-maps-18.0.1/AndroidManifest.xml:41:13-37
+282
+283        <receiver
+283-->[com.google.firebase:firebase-messaging:23.0.0] /Users/macair/.gradle/caches/transforms-2/files-2.1/c75f16a05052e2b725e6fa141ba93259/jetified-firebase-messaging-23.0.0/AndroidManifest.xml:28:9-35:20
+284            android:name="com.google.firebase.iid.FirebaseInstanceIdReceiver"
+284-->[com.google.firebase:firebase-messaging:23.0.0] /Users/macair/.gradle/caches/transforms-2/files-2.1/c75f16a05052e2b725e6fa141ba93259/jetified-firebase-messaging-23.0.0/AndroidManifest.xml:29:13-78
+285            android:exported="true"
+285-->[com.google.firebase:firebase-messaging:23.0.0] /Users/macair/.gradle/caches/transforms-2/files-2.1/c75f16a05052e2b725e6fa141ba93259/jetified-firebase-messaging-23.0.0/AndroidManifest.xml:30:13-36
+286            android:permission="com.google.android.c2dm.permission.SEND" >
+286-->[com.google.firebase:firebase-messaging:23.0.0] /Users/macair/.gradle/caches/transforms-2/files-2.1/c75f16a05052e2b725e6fa141ba93259/jetified-firebase-messaging-23.0.0/AndroidManifest.xml:31:13-73
+287            <intent-filter>
+287-->[com.google.firebase:firebase-messaging:23.0.0] /Users/macair/.gradle/caches/transforms-2/files-2.1/c75f16a05052e2b725e6fa141ba93259/jetified-firebase-messaging-23.0.0/AndroidManifest.xml:32:13-34:29
+288                <action android:name="com.google.android.c2dm.intent.RECEIVE" />
+288-->[com.google.firebase:firebase-messaging:23.0.0] /Users/macair/.gradle/caches/transforms-2/files-2.1/c75f16a05052e2b725e6fa141ba93259/jetified-firebase-messaging-23.0.0/AndroidManifest.xml:33:17-81
+288-->[com.google.firebase:firebase-messaging:23.0.0] /Users/macair/.gradle/caches/transforms-2/files-2.1/c75f16a05052e2b725e6fa141ba93259/jetified-firebase-messaging-23.0.0/AndroidManifest.xml:33:25-78
+289            </intent-filter>
+290        </receiver>
+291        <!--
+292             FirebaseMessagingService performs security checks at runtime,
+293             but set to not exported to explicitly avoid allowing another app to call it.
+294        -->
+295        <service
+295-->[com.google.firebase:firebase-messaging:23.0.0] /Users/macair/.gradle/caches/transforms-2/files-2.1/c75f16a05052e2b725e6fa141ba93259/jetified-firebase-messaging-23.0.0/AndroidManifest.xml:41:9-48:19
+296            android:name="com.google.firebase.messaging.FirebaseMessagingService"
+296-->[com.google.firebase:firebase-messaging:23.0.0] /Users/macair/.gradle/caches/transforms-2/files-2.1/c75f16a05052e2b725e6fa141ba93259/jetified-firebase-messaging-23.0.0/AndroidManifest.xml:42:13-82
+297            android:directBootAware="true"
+297-->[com.google.firebase:firebase-messaging:23.0.0] /Users/macair/.gradle/caches/transforms-2/files-2.1/c75f16a05052e2b725e6fa141ba93259/jetified-firebase-messaging-23.0.0/AndroidManifest.xml:43:13-43
+298            android:exported="false" >
+298-->[com.google.firebase:firebase-messaging:23.0.0] /Users/macair/.gradle/caches/transforms-2/files-2.1/c75f16a05052e2b725e6fa141ba93259/jetified-firebase-messaging-23.0.0/AndroidManifest.xml:44:13-37
+299            <intent-filter android:priority="-500" >
+299-->[com.google.firebase:firebase-messaging:23.0.0] /Users/macair/.gradle/caches/transforms-2/files-2.1/c75f16a05052e2b725e6fa141ba93259/jetified-firebase-messaging-23.0.0/AndroidManifest.xml:45:13-47:29
+299-->[com.google.firebase:firebase-messaging:23.0.0] /Users/macair/.gradle/caches/transforms-2/files-2.1/c75f16a05052e2b725e6fa141ba93259/jetified-firebase-messaging-23.0.0/AndroidManifest.xml:45:28-51
+300                <action android:name="com.google.firebase.MESSAGING_EVENT" />
+300-->/Users/macair/Downloads/indecomobile/app/src/main/AndroidManifest.xml:206:17-78
+300-->/Users/macair/Downloads/indecomobile/app/src/main/AndroidManifest.xml:206:25-75
+301            </intent-filter>
+302        </service>
+303        <service
+303-->[com.google.firebase:firebase-messaging:23.0.0] /Users/macair/.gradle/caches/transforms-2/files-2.1/c75f16a05052e2b725e6fa141ba93259/jetified-firebase-messaging-23.0.0/AndroidManifest.xml:49:9-55:19
+304            android:name="com.google.firebase.components.ComponentDiscoveryService"
+304-->[com.google.firebase:firebase-messaging:23.0.0] /Users/macair/.gradle/caches/transforms-2/files-2.1/c75f16a05052e2b725e6fa141ba93259/jetified-firebase-messaging-23.0.0/AndroidManifest.xml:50:13-84
+305            android:directBootAware="true"
+305-->[com.google.firebase:firebase-common:20.0.0] /Users/macair/.gradle/caches/transforms-2/files-2.1/a975c482550dfc3ac79b3b0c4eabcd05/jetified-firebase-common-20.0.0/AndroidManifest.xml:35:13-43
+306            android:exported="false" >
+306-->[com.google.firebase:firebase-messaging:23.0.0] /Users/macair/.gradle/caches/transforms-2/files-2.1/c75f16a05052e2b725e6fa141ba93259/jetified-firebase-messaging-23.0.0/AndroidManifest.xml:51:13-37
+307            <meta-data
+307-->[com.google.firebase:firebase-messaging:23.0.0] /Users/macair/.gradle/caches/transforms-2/files-2.1/c75f16a05052e2b725e6fa141ba93259/jetified-firebase-messaging-23.0.0/AndroidManifest.xml:52:13-54:85
+308                android:name="com.google.firebase.components:com.google.firebase.messaging.FirebaseMessagingRegistrar"
+308-->[com.google.firebase:firebase-messaging:23.0.0] /Users/macair/.gradle/caches/transforms-2/files-2.1/c75f16a05052e2b725e6fa141ba93259/jetified-firebase-messaging-23.0.0/AndroidManifest.xml:53:17-119
+309                android:value="com.google.firebase.components.ComponentRegistrar" />
+309-->[com.google.firebase:firebase-messaging:23.0.0] /Users/macair/.gradle/caches/transforms-2/files-2.1/c75f16a05052e2b725e6fa141ba93259/jetified-firebase-messaging-23.0.0/AndroidManifest.xml:54:17-82
+310            <meta-data
+310-->[com.google.android.gms:play-services-measurement-api:20.0.2] /Users/macair/.gradle/caches/transforms-2/files-2.1/8cfcd21d608abc245534dd298aa36e80/jetified-play-services-measurement-api-20.0.2/AndroidManifest.xml:30:13-32:85
+311                android:name="com.google.firebase.components:com.google.firebase.analytics.connector.internal.AnalyticsConnectorRegistrar"
+311-->[com.google.android.gms:play-services-measurement-api:20.0.2] /Users/macair/.gradle/caches/transforms-2/files-2.1/8cfcd21d608abc245534dd298aa36e80/jetified-play-services-measurement-api-20.0.2/AndroidManifest.xml:31:17-139
+312                android:value="com.google.firebase.components.ComponentRegistrar" />
+312-->[com.google.android.gms:play-services-measurement-api:20.0.2] /Users/macair/.gradle/caches/transforms-2/files-2.1/8cfcd21d608abc245534dd298aa36e80/jetified-play-services-measurement-api-20.0.2/AndroidManifest.xml:32:17-82
+313            <meta-data
+313-->[com.google.firebase:firebase-datatransport:18.0.0] /Users/macair/.gradle/caches/transforms-2/files-2.1/e93af235f23641a59a393f931578ffb1/jetified-firebase-datatransport-18.0.0/AndroidManifest.xml:28:13-30:85
+314                android:name="com.google.firebase.components:com.google.firebase.datatransport.TransportRegistrar"
+314-->[com.google.firebase:firebase-datatransport:18.0.0] /Users/macair/.gradle/caches/transforms-2/files-2.1/e93af235f23641a59a393f931578ffb1/jetified-firebase-datatransport-18.0.0/AndroidManifest.xml:29:17-115
+315                android:value="com.google.firebase.components.ComponentRegistrar" />
+315-->[com.google.firebase:firebase-datatransport:18.0.0] /Users/macair/.gradle/caches/transforms-2/files-2.1/e93af235f23641a59a393f931578ffb1/jetified-firebase-datatransport-18.0.0/AndroidManifest.xml:30:17-82
+316            <meta-data
+316-->[com.google.firebase:firebase-installations:17.0.0] /Users/macair/.gradle/caches/transforms-2/files-2.1/98323a2611e85ac64d5cc440ceb1d53c/jetified-firebase-installations-17.0.0/AndroidManifest.xml:18:13-20:85
+317                android:name="com.google.firebase.components:com.google.firebase.installations.FirebaseInstallationsRegistrar"
+317-->[com.google.firebase:firebase-installations:17.0.0] /Users/macair/.gradle/caches/transforms-2/files-2.1/98323a2611e85ac64d5cc440ceb1d53c/jetified-firebase-installations-17.0.0/AndroidManifest.xml:19:17-127
+318                android:value="com.google.firebase.components.ComponentRegistrar" />
+318-->[com.google.firebase:firebase-installations:17.0.0] /Users/macair/.gradle/caches/transforms-2/files-2.1/98323a2611e85ac64d5cc440ceb1d53c/jetified-firebase-installations-17.0.0/AndroidManifest.xml:20:17-82
+319        </service>
+320        <service
+320-->[com.google.android.gms:play-services-mlkit-barcode-scanning:17.0.0] /Users/macair/.gradle/caches/transforms-2/files-2.1/be7c86a1b07647d001ef7e74401a6a4d/jetified-play-services-mlkit-barcode-scanning-17.0.0/AndroidManifest.xml:9:9-15:19
+321            android:name="com.google.mlkit.common.internal.MlKitComponentDiscoveryService"
+321-->[com.google.android.gms:play-services-mlkit-barcode-scanning:17.0.0] /Users/macair/.gradle/caches/transforms-2/files-2.1/be7c86a1b07647d001ef7e74401a6a4d/jetified-play-services-mlkit-barcode-scanning-17.0.0/AndroidManifest.xml:10:13-91
+322            android:directBootAware="true"
+322-->[com.google.mlkit:common:17.5.0] /Users/macair/.gradle/caches/transforms-2/files-2.1/f936266f52de3e7dee04bb37b63d354a/jetified-common-17.5.0/AndroidManifest.xml:17:13-43
+323            android:exported="false" >
+323-->[com.google.android.gms:play-services-mlkit-barcode-scanning:17.0.0] /Users/macair/.gradle/caches/transforms-2/files-2.1/be7c86a1b07647d001ef7e74401a6a4d/jetified-play-services-mlkit-barcode-scanning-17.0.0/AndroidManifest.xml:11:13-37
+324            <meta-data
+324-->[com.google.android.gms:play-services-mlkit-barcode-scanning:17.0.0] /Users/macair/.gradle/caches/transforms-2/files-2.1/be7c86a1b07647d001ef7e74401a6a4d/jetified-play-services-mlkit-barcode-scanning-17.0.0/AndroidManifest.xml:12:13-14:85
+325                android:name="com.google.firebase.components:com.google.mlkit.vision.barcode.internal.BarcodeRegistrar"
+325-->[com.google.android.gms:play-services-mlkit-barcode-scanning:17.0.0] /Users/macair/.gradle/caches/transforms-2/files-2.1/be7c86a1b07647d001ef7e74401a6a4d/jetified-play-services-mlkit-barcode-scanning-17.0.0/AndroidManifest.xml:13:17-120
+326                android:value="com.google.firebase.components.ComponentRegistrar" />
+326-->[com.google.android.gms:play-services-mlkit-barcode-scanning:17.0.0] /Users/macair/.gradle/caches/transforms-2/files-2.1/be7c86a1b07647d001ef7e74401a6a4d/jetified-play-services-mlkit-barcode-scanning-17.0.0/AndroidManifest.xml:14:17-82
+327            <meta-data
+327-->[com.google.mlkit:vision-common:16.7.0] /Users/macair/.gradle/caches/transforms-2/files-2.1/f73f844e9d24760a9de110de9867bb2e/jetified-vision-common-16.7.0/AndroidManifest.xml:12:13-14:85
+328                android:name="com.google.firebase.components:com.google.mlkit.vision.common.internal.VisionCommonRegistrar"
+328-->[com.google.mlkit:vision-common:16.7.0] /Users/macair/.gradle/caches/transforms-2/files-2.1/f73f844e9d24760a9de110de9867bb2e/jetified-vision-common-16.7.0/AndroidManifest.xml:13:17-124
+329                android:value="com.google.firebase.components.ComponentRegistrar" />
+329-->[com.google.mlkit:vision-common:16.7.0] /Users/macair/.gradle/caches/transforms-2/files-2.1/f73f844e9d24760a9de110de9867bb2e/jetified-vision-common-16.7.0/AndroidManifest.xml:14:17-82
+330            <meta-data
+330-->[com.google.mlkit:common:17.5.0] /Users/macair/.gradle/caches/transforms-2/files-2.1/f936266f52de3e7dee04bb37b63d354a/jetified-common-17.5.0/AndroidManifest.xml:20:13-22:85
+331                android:name="com.google.firebase.components:com.google.mlkit.common.internal.CommonComponentRegistrar"
+331-->[com.google.mlkit:common:17.5.0] /Users/macair/.gradle/caches/transforms-2/files-2.1/f936266f52de3e7dee04bb37b63d354a/jetified-common-17.5.0/AndroidManifest.xml:21:17-120
+332                android:value="com.google.firebase.components.ComponentRegistrar" />
+332-->[com.google.mlkit:common:17.5.0] /Users/macair/.gradle/caches/transforms-2/files-2.1/f936266f52de3e7dee04bb37b63d354a/jetified-common-17.5.0/AndroidManifest.xml:22:17-82
+333        </service>
+334
+335        <receiver
+335-->[com.google.android.gms:play-services-measurement:20.0.2] /Users/macair/.gradle/caches/transforms-2/files-2.1/28beb2256965eb35a224a406678549fa/jetified-play-services-measurement-20.0.2/AndroidManifest.xml:29:9-33:20
+336            android:name="com.google.android.gms.measurement.AppMeasurementReceiver"
+336-->[com.google.android.gms:play-services-measurement:20.0.2] /Users/macair/.gradle/caches/transforms-2/files-2.1/28beb2256965eb35a224a406678549fa/jetified-play-services-measurement-20.0.2/AndroidManifest.xml:30:13-85
+337            android:enabled="true"
+337-->[com.google.android.gms:play-services-measurement:20.0.2] /Users/macair/.gradle/caches/transforms-2/files-2.1/28beb2256965eb35a224a406678549fa/jetified-play-services-measurement-20.0.2/AndroidManifest.xml:31:13-35
+338            android:exported="false" >
+338-->[com.google.android.gms:play-services-measurement:20.0.2] /Users/macair/.gradle/caches/transforms-2/files-2.1/28beb2256965eb35a224a406678549fa/jetified-play-services-measurement-20.0.2/AndroidManifest.xml:32:13-37
+339        </receiver>
+340
+341        <service
+341-->[com.google.android.gms:play-services-measurement:20.0.2] /Users/macair/.gradle/caches/transforms-2/files-2.1/28beb2256965eb35a224a406678549fa/jetified-play-services-measurement-20.0.2/AndroidManifest.xml:35:9-38:40
+342            android:name="com.google.android.gms.measurement.AppMeasurementService"
+342-->[com.google.android.gms:play-services-measurement:20.0.2] /Users/macair/.gradle/caches/transforms-2/files-2.1/28beb2256965eb35a224a406678549fa/jetified-play-services-measurement-20.0.2/AndroidManifest.xml:36:13-84
+343            android:enabled="true"
+343-->[com.google.android.gms:play-services-measurement:20.0.2] /Users/macair/.gradle/caches/transforms-2/files-2.1/28beb2256965eb35a224a406678549fa/jetified-play-services-measurement-20.0.2/AndroidManifest.xml:37:13-35
+344            android:exported="false" />
+344-->[com.google.android.gms:play-services-measurement:20.0.2] /Users/macair/.gradle/caches/transforms-2/files-2.1/28beb2256965eb35a224a406678549fa/jetified-play-services-measurement-20.0.2/AndroidManifest.xml:38:13-37
+345        <service
+345-->[com.google.android.gms:play-services-measurement:20.0.2] /Users/macair/.gradle/caches/transforms-2/files-2.1/28beb2256965eb35a224a406678549fa/jetified-play-services-measurement-20.0.2/AndroidManifest.xml:39:9-43:72
+346            android:name="com.google.android.gms.measurement.AppMeasurementJobService"
+346-->[com.google.android.gms:play-services-measurement:20.0.2] /Users/macair/.gradle/caches/transforms-2/files-2.1/28beb2256965eb35a224a406678549fa/jetified-play-services-measurement-20.0.2/AndroidManifest.xml:40:13-87
+347            android:enabled="true"
+347-->[com.google.android.gms:play-services-measurement:20.0.2] /Users/macair/.gradle/caches/transforms-2/files-2.1/28beb2256965eb35a224a406678549fa/jetified-play-services-measurement-20.0.2/AndroidManifest.xml:41:13-35
+348            android:exported="false"
+348-->[com.google.android.gms:play-services-measurement:20.0.2] /Users/macair/.gradle/caches/transforms-2/files-2.1/28beb2256965eb35a224a406678549fa/jetified-play-services-measurement-20.0.2/AndroidManifest.xml:42:13-37
+349            android:permission="android.permission.BIND_JOB_SERVICE" />
+349-->[com.google.android.gms:play-services-measurement:20.0.2] /Users/macair/.gradle/caches/transforms-2/files-2.1/28beb2256965eb35a224a406678549fa/jetified-play-services-measurement-20.0.2/AndroidManifest.xml:43:13-69
+350
+351        <provider
+351-->[com.google.mlkit:common:17.5.0] /Users/macair/.gradle/caches/transforms-2/files-2.1/f936266f52de3e7dee04bb37b63d354a/jetified-common-17.5.0/AndroidManifest.xml:9:9-13:38
+352            android:name="com.google.mlkit.common.internal.MlKitInitProvider"
+352-->[com.google.mlkit:common:17.5.0] /Users/macair/.gradle/caches/transforms-2/files-2.1/f936266f52de3e7dee04bb37b63d354a/jetified-common-17.5.0/AndroidManifest.xml:10:13-78
+353            android:authorities="com.synergyyy.mlkitinitprovider"
+353-->[com.google.mlkit:common:17.5.0] /Users/macair/.gradle/caches/transforms-2/files-2.1/f936266f52de3e7dee04bb37b63d354a/jetified-common-17.5.0/AndroidManifest.xml:11:13-69
+354            android:exported="false"
+354-->[com.google.mlkit:common:17.5.0] /Users/macair/.gradle/caches/transforms-2/files-2.1/f936266f52de3e7dee04bb37b63d354a/jetified-common-17.5.0/AndroidManifest.xml:12:13-37
+355            android:initOrder="99" />
+355-->[com.google.mlkit:common:17.5.0] /Users/macair/.gradle/caches/transforms-2/files-2.1/f936266f52de3e7dee04bb37b63d354a/jetified-common-17.5.0/AndroidManifest.xml:13:13-35
+356
+357        <activity
+357-->[com.google.android.gms:play-services-base:18.0.0] /Users/macair/.gradle/caches/transforms-2/files-2.1/0b097ca1664d034a82a03bad039aaef4/jetified-play-services-base-18.0.0/AndroidManifest.xml:20:9-22:45
+358            android:name="com.google.android.gms.common.api.GoogleApiActivity"
+358-->[com.google.android.gms:play-services-base:18.0.0] /Users/macair/.gradle/caches/transforms-2/files-2.1/0b097ca1664d034a82a03bad039aaef4/jetified-play-services-base-18.0.0/AndroidManifest.xml:20:19-85
+359            android:exported="false"
+359-->[com.google.android.gms:play-services-base:18.0.0] /Users/macair/.gradle/caches/transforms-2/files-2.1/0b097ca1664d034a82a03bad039aaef4/jetified-play-services-base-18.0.0/AndroidManifest.xml:22:19-43
+360            android:theme="@android:style/Theme.Translucent.NoTitleBar" />
+360-->[com.google.android.gms:play-services-base:18.0.0] /Users/macair/.gradle/caches/transforms-2/files-2.1/0b097ca1664d034a82a03bad039aaef4/jetified-play-services-base-18.0.0/AndroidManifest.xml:21:19-78
+361
+362        <provider
+362-->[com.google.firebase:firebase-common:20.0.0] /Users/macair/.gradle/caches/transforms-2/files-2.1/a975c482550dfc3ac79b3b0c4eabcd05/jetified-firebase-common-20.0.0/AndroidManifest.xml:26:9-31:39
+363            android:name="com.google.firebase.provider.FirebaseInitProvider"
+363-->[com.google.firebase:firebase-common:20.0.0] /Users/macair/.gradle/caches/transforms-2/files-2.1/a975c482550dfc3ac79b3b0c4eabcd05/jetified-firebase-common-20.0.0/AndroidManifest.xml:27:13-77
+364            android:authorities="com.synergyyy.firebaseinitprovider"
+364-->[com.google.firebase:firebase-common:20.0.0] /Users/macair/.gradle/caches/transforms-2/files-2.1/a975c482550dfc3ac79b3b0c4eabcd05/jetified-firebase-common-20.0.0/AndroidManifest.xml:28:13-72
+365            android:directBootAware="true"
+365-->[com.google.firebase:firebase-common:20.0.0] /Users/macair/.gradle/caches/transforms-2/files-2.1/a975c482550dfc3ac79b3b0c4eabcd05/jetified-firebase-common-20.0.0/AndroidManifest.xml:29:13-43
+366            android:exported="false"
+366-->[com.google.firebase:firebase-common:20.0.0] /Users/macair/.gradle/caches/transforms-2/files-2.1/a975c482550dfc3ac79b3b0c4eabcd05/jetified-firebase-common-20.0.0/AndroidManifest.xml:30:13-37
+367            android:initOrder="100" />
+367-->[com.google.firebase:firebase-common:20.0.0] /Users/macair/.gradle/caches/transforms-2/files-2.1/a975c482550dfc3ac79b3b0c4eabcd05/jetified-firebase-common-20.0.0/AndroidManifest.xml:31:13-36
+368
+369        <meta-data
+369-->[com.google.android.gms:play-services-basement:18.0.0] /Users/macair/.gradle/caches/transforms-2/files-2.1/f940761caeff333bfb89f17e82a1b350/jetified-play-services-basement-18.0.0/AndroidManifest.xml:21:9-23:69
+370            android:name="com.google.android.gms.version"
+370-->[com.google.android.gms:play-services-basement:18.0.0] /Users/macair/.gradle/caches/transforms-2/files-2.1/f940761caeff333bfb89f17e82a1b350/jetified-play-services-basement-18.0.0/AndroidManifest.xml:22:13-58
+371            android:value="@integer/google_play_services_version" />
+371-->[com.google.android.gms:play-services-basement:18.0.0] /Users/macair/.gradle/caches/transforms-2/files-2.1/f940761caeff333bfb89f17e82a1b350/jetified-play-services-basement-18.0.0/AndroidManifest.xml:23:13-66
+372
+373        <provider
+373-->[com.squareup.picasso:picasso:2.71828] /Users/macair/.gradle/caches/transforms-2/files-2.1/f73b12b7364bc221c54923a81896c255/jetified-picasso-2.71828/AndroidManifest.xml:8:9-11:40
+374            android:name="com.squareup.picasso.PicassoProvider"
+374-->[com.squareup.picasso:picasso:2.71828] /Users/macair/.gradle/caches/transforms-2/files-2.1/f73b12b7364bc221c54923a81896c255/jetified-picasso-2.71828/AndroidManifest.xml:9:13-64
+375            android:authorities="com.synergyyy.com.squareup.picasso"
+375-->[com.squareup.picasso:picasso:2.71828] /Users/macair/.gradle/caches/transforms-2/files-2.1/f73b12b7364bc221c54923a81896c255/jetified-picasso-2.71828/AndroidManifest.xml:10:13-72
+376            android:exported="false" />
+376-->[com.squareup.picasso:picasso:2.71828] /Users/macair/.gradle/caches/transforms-2/files-2.1/f73b12b7364bc221c54923a81896c255/jetified-picasso-2.71828/AndroidManifest.xml:11:13-37
+377
+378        <uses-library
+378-->[androidx.camera:camera-extensions:1.0.0-alpha32] /Users/macair/.gradle/caches/transforms-2/files-2.1/c17a1f19a8c8d06cdbf0a60f99080547/jetified-camera-extensions-1.0.0-alpha32/AndroidManifest.xml:31:9-33:40
+379            android:name="androidx.camera.extensions.impl"
+379-->[androidx.camera:camera-extensions:1.0.0-alpha32] /Users/macair/.gradle/caches/transforms-2/files-2.1/c17a1f19a8c8d06cdbf0a60f99080547/jetified-camera-extensions-1.0.0-alpha32/AndroidManifest.xml:32:13-59
+380            android:required="false" />
+380-->[androidx.camera:camera-extensions:1.0.0-alpha32] /Users/macair/.gradle/caches/transforms-2/files-2.1/c17a1f19a8c8d06cdbf0a60f99080547/jetified-camera-extensions-1.0.0-alpha32/AndroidManifest.xml:33:13-37
+381
+382        <service
+382-->[androidx.camera:camera-camera2:1.1.0-alpha12] /Users/macair/.gradle/caches/transforms-2/files-2.1/032058fc17b309263ec53fda847961da/jetified-camera-camera2-1.1.0-alpha12/AndroidManifest.xml:26:9-35:19
+383            android:name="androidx.camera.core.impl.MetadataHolderService"
+383-->[androidx.camera:camera-camera2:1.1.0-alpha12] /Users/macair/.gradle/caches/transforms-2/files-2.1/032058fc17b309263ec53fda847961da/jetified-camera-camera2-1.1.0-alpha12/AndroidManifest.xml:27:13-75
+384            android:enabled="false"
+384-->[androidx.camera:camera-camera2:1.1.0-alpha12] /Users/macair/.gradle/caches/transforms-2/files-2.1/032058fc17b309263ec53fda847961da/jetified-camera-camera2-1.1.0-alpha12/AndroidManifest.xml:28:13-36
+385            android:exported="false" >
+385-->[androidx.camera:camera-camera2:1.1.0-alpha12] /Users/macair/.gradle/caches/transforms-2/files-2.1/032058fc17b309263ec53fda847961da/jetified-camera-camera2-1.1.0-alpha12/AndroidManifest.xml:29:13-37
+386            <meta-data
+386-->[androidx.camera:camera-camera2:1.1.0-alpha12] /Users/macair/.gradle/caches/transforms-2/files-2.1/032058fc17b309263ec53fda847961da/jetified-camera-camera2-1.1.0-alpha12/AndroidManifest.xml:32:13-34:89
+387                android:name="androidx.camera.core.impl.MetadataHolderService.DEFAULT_CONFIG_PROVIDER"
+387-->[androidx.camera:camera-camera2:1.1.0-alpha12] /Users/macair/.gradle/caches/transforms-2/files-2.1/032058fc17b309263ec53fda847961da/jetified-camera-camera2-1.1.0-alpha12/AndroidManifest.xml:33:17-103
+388                android:value="androidx.camera.camera2.Camera2Config$DefaultProvider" />
+388-->[androidx.camera:camera-camera2:1.1.0-alpha12] /Users/macair/.gradle/caches/transforms-2/files-2.1/032058fc17b309263ec53fda847961da/jetified-camera-camera2-1.1.0-alpha12/AndroidManifest.xml:34:17-86
+389        </service>
+390        <service
+390-->[com.google.android.datatransport:transport-backend-cct:3.0.0] /Users/macair/.gradle/caches/transforms-2/files-2.1/63c064656a8e7aaa441294ea04028986/jetified-transport-backend-cct-3.0.0/AndroidManifest.xml:29:9-35:19
+391            android:name="com.google.android.datatransport.runtime.backends.TransportBackendDiscovery"
+391-->[com.google.android.datatransport:transport-backend-cct:3.0.0] /Users/macair/.gradle/caches/transforms-2/files-2.1/63c064656a8e7aaa441294ea04028986/jetified-transport-backend-cct-3.0.0/AndroidManifest.xml:30:13-103
+392            android:exported="false" >
+392-->[com.google.android.datatransport:transport-backend-cct:3.0.0] /Users/macair/.gradle/caches/transforms-2/files-2.1/63c064656a8e7aaa441294ea04028986/jetified-transport-backend-cct-3.0.0/AndroidManifest.xml:31:13-37
+393            <meta-data
+393-->[com.google.android.datatransport:transport-backend-cct:3.0.0] /Users/macair/.gradle/caches/transforms-2/files-2.1/63c064656a8e7aaa441294ea04028986/jetified-transport-backend-cct-3.0.0/AndroidManifest.xml:32:13-34:39
+394                android:name="backend:com.google.android.datatransport.cct.CctBackendFactory"
+394-->[com.google.android.datatransport:transport-backend-cct:3.0.0] /Users/macair/.gradle/caches/transforms-2/files-2.1/63c064656a8e7aaa441294ea04028986/jetified-transport-backend-cct-3.0.0/AndroidManifest.xml:33:17-94
+395                android:value="cct" />
+395-->[com.google.android.datatransport:transport-backend-cct:3.0.0] /Users/macair/.gradle/caches/transforms-2/files-2.1/63c064656a8e7aaa441294ea04028986/jetified-transport-backend-cct-3.0.0/AndroidManifest.xml:34:17-36
+396        </service>
+397
+398        <provider
+398-->[androidx.emoji2:emoji2:1.0.0] /Users/macair/.gradle/caches/transforms-2/files-2.1/4cc2fa3f24802df7170c1bb1eec48285/jetified-emoji2-1.0.0/AndroidManifest.xml:26:9-34:20
+399            android:name="androidx.startup.InitializationProvider"
+399-->[androidx.emoji2:emoji2:1.0.0] /Users/macair/.gradle/caches/transforms-2/files-2.1/4cc2fa3f24802df7170c1bb1eec48285/jetified-emoji2-1.0.0/AndroidManifest.xml:27:13-67
+400            android:authorities="com.synergyyy.androidx-startup"
+400-->[androidx.emoji2:emoji2:1.0.0] /Users/macair/.gradle/caches/transforms-2/files-2.1/4cc2fa3f24802df7170c1bb1eec48285/jetified-emoji2-1.0.0/AndroidManifest.xml:28:13-68
+401            android:exported="false" >
+401-->[androidx.emoji2:emoji2:1.0.0] /Users/macair/.gradle/caches/transforms-2/files-2.1/4cc2fa3f24802df7170c1bb1eec48285/jetified-emoji2-1.0.0/AndroidManifest.xml:29:13-37
+402            <meta-data
+402-->[androidx.emoji2:emoji2:1.0.0] /Users/macair/.gradle/caches/transforms-2/files-2.1/4cc2fa3f24802df7170c1bb1eec48285/jetified-emoji2-1.0.0/AndroidManifest.xml:31:13-33:52
+403                android:name="androidx.emoji2.text.EmojiCompatInitializer"
+403-->[androidx.emoji2:emoji2:1.0.0] /Users/macair/.gradle/caches/transforms-2/files-2.1/4cc2fa3f24802df7170c1bb1eec48285/jetified-emoji2-1.0.0/AndroidManifest.xml:32:17-75
+404                android:value="androidx.startup" />
+404-->[androidx.emoji2:emoji2:1.0.0] /Users/macair/.gradle/caches/transforms-2/files-2.1/4cc2fa3f24802df7170c1bb1eec48285/jetified-emoji2-1.0.0/AndroidManifest.xml:33:17-49
+405            <meta-data
+405-->[androidx.lifecycle:lifecycle-process:2.4.0] /Users/macair/.gradle/caches/transforms-2/files-2.1/8ebbcaceea573d183014c6167e3eae86/jetified-lifecycle-process-2.4.0/AndroidManifest.xml:31:13-33:52
+406                android:name="androidx.lifecycle.ProcessLifecycleInitializer"
+406-->[androidx.lifecycle:lifecycle-process:2.4.0] /Users/macair/.gradle/caches/transforms-2/files-2.1/8ebbcaceea573d183014c6167e3eae86/jetified-lifecycle-process-2.4.0/AndroidManifest.xml:32:17-78
+407                android:value="androidx.startup" />
+407-->[androidx.lifecycle:lifecycle-process:2.4.0] /Users/macair/.gradle/caches/transforms-2/files-2.1/8ebbcaceea573d183014c6167e3eae86/jetified-lifecycle-process-2.4.0/AndroidManifest.xml:33:17-49
+408        </provider>
+409
+410        <service
+410-->[com.google.android.datatransport:transport-runtime:3.0.0] /Users/macair/.gradle/caches/transforms-2/files-2.1/e111502eba369acc7517c69ed6a1f87d/jetified-transport-runtime-3.0.0/AndroidManifest.xml:26:9-30:19
+411            android:name="com.google.android.datatransport.runtime.scheduling.jobscheduling.JobInfoSchedulerService"
+411-->[com.google.android.datatransport:transport-runtime:3.0.0] /Users/macair/.gradle/caches/transforms-2/files-2.1/e111502eba369acc7517c69ed6a1f87d/jetified-transport-runtime-3.0.0/AndroidManifest.xml:27:13-117
+412            android:exported="false"
+412-->[com.google.android.datatransport:transport-runtime:3.0.0] /Users/macair/.gradle/caches/transforms-2/files-2.1/e111502eba369acc7517c69ed6a1f87d/jetified-transport-runtime-3.0.0/AndroidManifest.xml:28:13-37
+413            android:permission="android.permission.BIND_JOB_SERVICE" >
+413-->[com.google.android.datatransport:transport-runtime:3.0.0] /Users/macair/.gradle/caches/transforms-2/files-2.1/e111502eba369acc7517c69ed6a1f87d/jetified-transport-runtime-3.0.0/AndroidManifest.xml:29:13-69
+414        </service>
+415
+416        <receiver
+416-->[com.google.android.datatransport:transport-runtime:3.0.0] /Users/macair/.gradle/caches/transforms-2/files-2.1/e111502eba369acc7517c69ed6a1f87d/jetified-transport-runtime-3.0.0/AndroidManifest.xml:32:9-34:40
+417            android:name="com.google.android.datatransport.runtime.scheduling.jobscheduling.AlarmManagerSchedulerBroadcastReceiver"
+417-->[com.google.android.datatransport:transport-runtime:3.0.0] /Users/macair/.gradle/caches/transforms-2/files-2.1/e111502eba369acc7517c69ed6a1f87d/jetified-transport-runtime-3.0.0/AndroidManifest.xml:33:13-132
+418            android:exported="false" />
+418-->[com.google.android.datatransport:transport-runtime:3.0.0] /Users/macair/.gradle/caches/transforms-2/files-2.1/e111502eba369acc7517c69ed6a1f87d/jetified-transport-runtime-3.0.0/AndroidManifest.xml:34:13-37
+419
+420        <service
+420-->[androidx.room:room-runtime:2.2.5] /Users/macair/.gradle/caches/transforms-2/files-2.1/f3886148a0e0605417d0ce8bf2261c6c/room-runtime-2.2.5/AndroidManifest.xml:25:9-28:40
+421            android:name="androidx.room.MultiInstanceInvalidationService"
+421-->[androidx.room:room-runtime:2.2.5] /Users/macair/.gradle/caches/transforms-2/files-2.1/f3886148a0e0605417d0ce8bf2261c6c/room-runtime-2.2.5/AndroidManifest.xml:26:13-74
+422            android:directBootAware="true"
+422-->[androidx.room:room-runtime:2.2.5] /Users/macair/.gradle/caches/transforms-2/files-2.1/f3886148a0e0605417d0ce8bf2261c6c/room-runtime-2.2.5/AndroidManifest.xml:27:13-43
+423            android:exported="false" />
+423-->[androidx.room:room-runtime:2.2.5] /Users/macair/.gradle/caches/transforms-2/files-2.1/f3886148a0e0605417d0ce8bf2261c6c/room-runtime-2.2.5/AndroidManifest.xml:28:13-37
+424    </application>
+425
+426</manifest>

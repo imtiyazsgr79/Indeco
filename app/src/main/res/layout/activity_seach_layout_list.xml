@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#e2e2e2"
+    android:orientation="vertical"
+    tools:context=".Search.EquipmentSearchActivityforEdit">
+
+    <androidx.appcompat.widget.Toolbar
+        android:id="@+id/toolbar_eq_search"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="@color/colorCodeSchemeApp"
+        android:theme="@style/ThemeOverlay.AppCompat.Dark.ActionBar"
+        app:menu="@menu/menu"
+        app:title="Equipment Search"
+        app:titleMargin="8dp"
+        app:titleTextColor="#e2e2e2" />
+
+    <SearchView
+        android:id="@+id/search_equip_bar"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="8dp"
+        android:layout_marginTop="8dp"
+        android:layout_marginEnd="8dp"
+        app:queryBackground="@android:color/transparent"
+        android:queryBackground="@android:color/transparent"
+        android:background="@drawable/mysearcht"
+        android:elevation="2dp"
+        android:queryHint="Search here"
+        android:textColorHint="#000000" />
+
+    <ListView
+        android:id="@+id/listview_equip_search"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_margin="6dp"
+        android:divider="@android:color/transparent"
+        android:dividerHeight="15sp"
+        android:elevation="2dp"
+        android:orientation="vertical"
+        android:padding="2dp" />
+
+
+</LinearLayout>

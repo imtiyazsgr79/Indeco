@@ -1,0 +1,81 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#e2e2e2"
+    android:orientation="vertical"
+    tools:context=".Search.Search">
+
+    <androidx.appcompat.widget.Toolbar
+        android:id="@+id/tool_search"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="@color/colorCodeSchemeApp"
+        android:theme="@style/ThemeOverlay.AppCompat.Dark.ActionBar"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:menu="@menu/menu"
+        app:title="Search Fault Reports"
+        app:titleMargin="8dp"
+        app:titleTextColor="#ffffff" />
+
+
+        <ScrollView
+            android:id="@+id/scrollViewSearch"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:fillViewport="true"
+            android:focusable="true"
+            android:focusableInTouchMode="true"
+            android:orientation="vertical"
+            android:scrollbarAlwaysDrawVerticalTrack="true"
+            android:scrollbarSize="4dp"
+            android:scrollbars="vertical"
+            android:verticalScrollbarPosition="right">
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="vertical">
+
+                <SearchView
+                    android:id="@+id/search_view"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_margin="8dp"
+                    android:background="@drawable/mysearcht"
+                    android:elevation="2dp"
+                    android:padding="2dp"
+                    android:queryBackground="@android:color/transparent"
+                    android:queryHint="Search here"
+                    android:textColorHint="@color/textColor"
+                    app:queryBackground="@android:color/transparent" />
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginStart="6dp"
+                    android:layout_marginEnd="6dp"
+                    android:orientation="vertical">
+
+                    <ListView
+                        android:id="@+id/list_view"
+                        android:layout_width="match_parent"
+                        android:layout_height="match_parent"
+                        android:divider="@android:color/transparent"
+                        android:dividerHeight="4sp"
+                        android:elevation="2dp"
+                        android:padding="4dp" />
+                </LinearLayout>
+
+
+            </LinearLayout>
+        </ScrollView>
+
+
+
+</LinearLayout>
+

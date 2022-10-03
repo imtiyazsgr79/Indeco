@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="DesignSurface">
+    <option name="filePathToZoomLevelMap">
+      <map>
+        <entry key="../../../../layout/custom_preview.xml" value="0.16574074074074074" />
+        <entry key="app/src/main/res/drawable/ic_error.xml" value="0.1655" />
+        <entry key="app/src/main/res/drawable/mybutton.xml" value="0.1335" />
+        <entry key="app/src/main/res/drawable/mysearcht.xml" value="0.116" />
+        <entry key="app/src/main/res/layout/activity_edit_fault_on_search.xml" value="0.182518115942029" />
+        <entry key="app/src/main/res/layout/activity_edit_fault_report.xml" value="0.1" />
+        <entry key="app/src/main/res/layout/activity_equipment_search.xml" value="0.1" />
+        <entry key="app/src/main/res/layout/activity_fault_report.xml" value="0.182518115942029" />
+        <entry key="app/src/main/res/layout/activity_images.xml" value="0.182518115942029" />
+        <entry key="app/src/main/res/layout/activity_main_login.xml" value="0.182518115942029" />
+        <entry key="app/src/main/res/layout/activity_messages.xml" value="0.1" />
+        <entry key="app/src/main/res/layout/activity_my_base.xml" value="0.182518115942029" />
+        <entry key="app/src/main/res/layout/activity_new_password.xml" value="0.14945652173913043" />
+        <entry key="app/src/main/res/layout/activity_pm_task.xml" value="0.1" />
+        <entry key="app/src/main/res/layout/activity_seach_layout_list.xml" value="0.2171875" />
+        <entry key="app/src/main/res/layout/activity_search.xml" value="0.182518115942029" />
+        <entry key="app/src/main/res/layout/activity_setting.xml" value="0.14945652173913043" />
+        <entry key="app/src/main/res/layout/activity_workspace.xml" value="0.182518115942029" />
+        <entry key="app/src/main/res/layout/custom_dialog_authorize_image.xml" value="0.182518115942029" />
+        <entry key="app/src/main/res/layout/custom_toolbar_layout.xml" value="0.182518115942029" />
+        <entry key="app/src/main/res/layout/equipment_search_row.xml" value="0.2171875" />
+        <entry key="app/src/main/res/layout/header.xml" value="0.182518115942029" />
+        <entry key="app/src/main/res/layout/message_card.xml" value="0.1" />
+        <entry key="app/src/main/res/layout/ml_qr_scanner.xml" value="0.182518115942029" />
+        <entry key="app/src/main/res/layout/recyler_card.xml" value="0.182518115942029" />
+        <entry key="app/src/main/res/layout/resetp_password.xml" value="0.14945652173913043" />
+        <entry key="app/src/main/res/layout/search_row.xml" value="0.2171875" />
+        <entry key="app/src/main/res/layout/thumb_item.xml" value="0.182518115942029" />
+        <entry key="app/src/main/res/menu/menu.xml" value="0.2171875" />
+        <entry key="app/src/main/res/menu/menu_admin.xml" value="0.2171875" />
+        <entry key="app/src/main/res/menu/menu_dashboard.xml" value="0.2171875" />
+      </map>
+    </option>
+  </component>
+  <component name="ProjectRootManager" version="2" languageLevel="JDK_11" default="true" project-jdk-name="Android Studio default JDK" project-jdk-type="JavaSDK">
+    <output url="file://$PROJECT_DIR$/build/classes" />
+  </component>
+  <component name="ProjectType">
+    <option name="id" value="Android" />
+  </component>
+</project>

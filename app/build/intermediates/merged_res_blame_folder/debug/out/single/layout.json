@@ -1,0 +1,238 @@
+[
+    {
+        "merged": "/Users/macair/Downloads/indecomobile/app/build/intermediates/incremental/mergeDebugResources/stripped.dir/layout/due_overdue_dialog.xml",
+        "source": "/Users/macair/Downloads/indecomobile/app/src/main/res/layout/due_overdue_dialog.xml"
+    },
+    {
+        "merged": "/Users/macair/Downloads/indecomobile/app/build/intermediates/incremental/mergeDebugResources/stripped.dir/layout/activity_view_purchase_only.xml",
+        "source": "/Users/macair/Downloads/indecomobile/app/src/main/res/layout/activity_view_purchase_only.xml"
+    },
+    {
+        "merged": "/Users/macair/Downloads/indecomobile/app/build/intermediates/incremental/mergeDebugResources/stripped.dir/layout/activity_setting.xml",
+        "source": "/Users/macair/Downloads/indecomobile/app/src/main/res/layout/activity_setting.xml"
+    },
+    {
+        "merged": "/Users/macair/Downloads/indecomobile/app/build/intermediates/incremental/mergeDebugResources/stripped.dir/layout/activity_upload_pdf.xml",
+        "source": "/Users/macair/Downloads/indecomobile/app/src/main/res/layout/activity_upload_pdf.xml"
+    },
+    {
+        "merged": "/Users/macair/Downloads/indecomobile/app/build/intermediates/incremental/mergeDebugResources/stripped.dir/layout/equipment_search_adapter.xml",
+        "source": "/Users/macair/Downloads/indecomobile/app/src/main/res/layout/equipment_search_adapter.xml"
+    },
+    {
+        "merged": "/Users/macair/Downloads/indecomobile/app/build/intermediates/incremental/mergeDebugResources/stripped.dir/layout/resetp_password.xml",
+        "source": "/Users/macair/Downloads/indecomobile/app/src/main/res/layout/resetp_password.xml"
+    },
+    {
+        "merged": "/Users/macair/Downloads/indecomobile/app/build/intermediates/incremental/mergeDebugResources/stripped.dir/layout/fragment_main.xml",
+        "source": "/Users/macair/Downloads/indecomobile/app/src/main/res/layout/fragment_main.xml"
+    },
+    {
+        "merged": "/Users/macair/Downloads/indecomobile/app/build/intermediates/incremental/mergeDebugResources/stripped.dir/layout/activity_chat.xml",
+        "source": "/Users/macair/Downloads/indecomobile/app/src/main/res/layout/activity_chat.xml"
+    },
+    {
+        "merged": "/Users/macair/Downloads/indecomobile/app/build/intermediates/incremental/mergeDebugResources/stripped.dir/layout/activity_seach_layout_list.xml",
+        "source": "/Users/macair/Downloads/indecomobile/app/src/main/res/layout/activity_seach_layout_list.xml"
+    },
+    {
+        "merged": "/Users/macair/Downloads/indecomobile/app/build/intermediates/incremental/mergeDebugResources/stripped.dir/layout/activity_upload_images_task.xml",
+        "source": "/Users/macair/Downloads/indecomobile/app/src/main/res/layout/activity_upload_images_task.xml"
+    },
+    {
+        "merged": "/Users/macair/Downloads/indecomobile/app/build/intermediates/incremental/mergeDebugResources/stripped.dir/layout/activity_search_task.xml",
+        "source": "/Users/macair/Downloads/indecomobile/app/src/main/res/layout/activity_search_task.xml"
+    },
+    {
+        "merged": "/Users/macair/Downloads/indecomobile/app/build/intermediates/incremental/mergeDebugResources/stripped.dir/layout/activity_my_base.xml",
+        "source": "/Users/macair/Downloads/indecomobile/app/src/main/res/layout/activity_my_base.xml"
+    },
+    {
+        "merged": "/Users/macair/Downloads/indecomobile/app/build/intermediates/incremental/mergeDebugResources/stripped.dir/layout/activity_new_password.xml",
+        "source": "/Users/macair/Downloads/indecomobile/app/src/main/res/layout/activity_new_password.xml"
+    },
+    {
+        "merged": "/Users/macair/Downloads/indecomobile/app/build/intermediates/incremental/mergeDebugResources/stripped.dir/layout/activity_splash_screen.xml",
+        "source": "/Users/macair/Downloads/indecomobile/app/src/main/res/layout/activity_splash_screen.xml"
+    },
+    {
+        "merged": "/Users/macair/Downloads/indecomobile/app/build/intermediates/incremental/mergeDebugResources/stripped.dir/layout/custom_layout_autocomplete_textview.xml",
+        "source": "/Users/macair/Downloads/indecomobile/app/src/main/res/layout/custom_layout_autocomplete_textview.xml"
+    },
+    {
+        "merged": "/Users/macair/Downloads/indecomobile/app/build/intermediates/incremental/mergeDebugResources/stripped.dir/layout/activity_upload_taskimage.xml",
+        "source": "/Users/macair/Downloads/indecomobile/app/src/main/res/layout/activity_upload_taskimage.xml"
+    },
+    {
+        "merged": "/Users/macair/Downloads/indecomobile/app/build/intermediates/incremental/mergeDebugResources/stripped.dir/layout/header.xml",
+        "source": "/Users/macair/Downloads/indecomobile/app/src/main/res/layout/header.xml"
+    },
+    {
+        "merged": "/Users/macair/Downloads/indecomobile/app/build/intermediates/incremental/mergeDebugResources/stripped.dir/layout/uploadfileonlyview.xml",
+        "source": "/Users/macair/Downloads/indecomobile/app/src/main/res/layout/uploadfileonlyview.xml"
+    },
+    {
+        "merged": "/Users/macair/Downloads/indecomobile/app/build/intermediates/incremental/mergeDebugResources/stripped.dir/layout/activity_upload_file.xml",
+        "source": "/Users/macair/Downloads/indecomobile/app/src/main/res/layout/activity_upload_file.xml"
+    },
+    {
+        "merged": "/Users/macair/Downloads/indecomobile/app/build/intermediates/incremental/mergeDebugResources/stripped.dir/layout/upload_purchase_pdf.xml",
+        "source": "/Users/macair/Downloads/indecomobile/app/src/main/res/layout/upload_purchase_pdf.xml"
+    },
+    {
+        "merged": "/Users/macair/Downloads/indecomobile/app/build/intermediates/incremental/mergeDebugResources/stripped.dir/layout/autocomplete_fmm_layout.xml",
+        "source": "/Users/macair/Downloads/indecomobile/app/src/main/res/layout/autocomplete_fmm_layout.xml"
+    },
+    {
+        "merged": "/Users/macair/Downloads/indecomobile/app/build/intermediates/incremental/mergeDebugResources/stripped.dir/layout/fragment_main_task.xml",
+        "source": "/Users/macair/Downloads/indecomobile/app/src/main/res/layout/fragment_main_task.xml"
+    },
+    {
+        "merged": "/Users/macair/Downloads/indecomobile/app/build/intermediates/incremental/mergeDebugResources/stripped.dir/layout/activity_search.xml",
+        "source": "/Users/macair/Downloads/indecomobile/app/src/main/res/layout/activity_search.xml"
+    },
+    {
+        "merged": "/Users/macair/Downloads/indecomobile/app/build/intermediates/incremental/mergeDebugResources/stripped.dir/layout/message_card.xml",
+        "source": "/Users/macair/Downloads/indecomobile/app/src/main/res/layout/message_card.xml"
+    },
+    {
+        "merged": "/Users/macair/Downloads/indecomobile/app/build/intermediates/incremental/mergeDebugResources/stripped.dir/layout/activity_check_list.xml",
+        "source": "/Users/macair/Downloads/indecomobile/app/src/main/res/layout/activity_check_list.xml"
+    },
+    {
+        "merged": "/Users/macair/Downloads/indecomobile/app/build/intermediates/incremental/mergeDebugResources/stripped.dir/layout/tvspinnertemplate.xml",
+        "source": "/Users/macair/Downloads/indecomobile/app/src/main/res/layout/tvspinnertemplate.xml"
+    },
+    {
+        "merged": "/Users/macair/Downloads/indecomobile/app/build/intermediates/incremental/mergeDebugResources/stripped.dir/layout/search_row.xml",
+        "source": "/Users/macair/Downloads/indecomobile/app/src/main/res/layout/search_row.xml"
+    },
+    {
+        "merged": "/Users/macair/Downloads/indecomobile/app/build/intermediates/incremental/mergeDebugResources/stripped.dir/layout/activity_images.xml",
+        "source": "/Users/macair/Downloads/indecomobile/app/src/main/res/layout/activity_images.xml"
+    },
+    {
+        "merged": "/Users/macair/Downloads/indecomobile/app/build/intermediates/incremental/mergeDebugResources/stripped.dir/layout/activity_main_login.xml",
+        "source": "/Users/macair/Downloads/indecomobile/app/src/main/res/layout/activity_main_login.xml"
+    },
+    {
+        "merged": "/Users/macair/Downloads/indecomobile/app/build/intermediates/incremental/mergeDebugResources/stripped.dir/layout/activity_equipment_search.xml",
+        "source": "/Users/macair/Downloads/indecomobile/app/src/main/res/layout/activity_equipment_search.xml"
+    },
+    {
+        "merged": "/Users/macair/Downloads/indecomobile/app/build/intermediates/incremental/mergeDebugResources/stripped.dir/layout/recyler_card.xml",
+        "source": "/Users/macair/Downloads/indecomobile/app/src/main/res/layout/recyler_card.xml"
+    },
+    {
+        "merged": "/Users/macair/Downloads/indecomobile/app/build/intermediates/incremental/mergeDebugResources/stripped.dir/layout/activity_edit_fault_on_search.xml",
+        "source": "/Users/macair/Downloads/indecomobile/app/src/main/res/layout/activity_edit_fault_on_search.xml"
+    },
+    {
+        "merged": "/Users/macair/Downloads/indecomobile/app/build/intermediates/incremental/mergeDebugResources/stripped.dir/layout/search_purchase_order.xml",
+        "source": "/Users/macair/Downloads/indecomobile/app/src/main/res/layout/search_purchase_order.xml"
+    },
+    {
+        "merged": "/Users/macair/Downloads/indecomobile/app/build/intermediates/incremental/mergeDebugResources/stripped.dir/layout/quote_search.xml",
+        "source": "/Users/macair/Downloads/indecomobile/app/src/main/res/layout/quote_search.xml"
+    },
+    {
+        "merged": "/Users/macair/Downloads/indecomobile/app/build/intermediates/incremental/mergeDebugResources/stripped.dir/layout/tvtemplate.xml",
+        "source": "/Users/macair/Downloads/indecomobile/app/src/main/res/layout/tvtemplate.xml"
+    },
+    {
+        "merged": "/Users/macair/Downloads/indecomobile/app/build/intermediates/incremental/mergeDebugResources/stripped.dir/layout/activity_edit_fault_report.xml",
+        "source": "/Users/macair/Downloads/indecomobile/app/src/main/res/layout/activity_edit_fault_report.xml"
+    },
+    {
+        "merged": "/Users/macair/Downloads/indecomobile/app/build/intermediates/incremental/mergeDebugResources/stripped.dir/layout/custom_acknowledger_oncomplete_status_dialog_box.xml",
+        "source": "/Users/macair/Downloads/indecomobile/app/src/main/res/layout/custom_acknowledger_oncomplete_status_dialog_box.xml"
+    },
+    {
+        "merged": "/Users/macair/Downloads/indecomobile/app/build/intermediates/incremental/mergeDebugResources/stripped.dir/layout/equipment_search_row.xml",
+        "source": "/Users/macair/Downloads/indecomobile/app/src/main/res/layout/equipment_search_row.xml"
+    },
+    {
+        "merged": "/Users/macair/Downloads/indecomobile/app/build/intermediates/incremental/mergeDebugResources/stripped.dir/layout/scan_location.xml",
+        "source": "/Users/macair/Downloads/indecomobile/app/src/main/res/layout/scan_location.xml"
+    },
+    {
+        "merged": "/Users/macair/Downloads/indecomobile/app/build/intermediates/incremental/mergeDebugResources/stripped.dir/layout/activity_pm_task.xml",
+        "source": "/Users/macair/Downloads/indecomobile/app/src/main/res/layout/activity_pm_task.xml"
+    },
+    {
+        "merged": "/Users/macair/Downloads/indecomobile/app/build/intermediates/incremental/mergeDebugResources/stripped.dir/layout/ml_qr_scanner.xml",
+        "source": "/Users/macair/Downloads/indecomobile/app/src/main/res/layout/ml_qr_scanner.xml"
+    },
+    {
+        "merged": "/Users/macair/Downloads/indecomobile/app/build/intermediates/incremental/mergeDebugResources/stripped.dir/layout/custom_dialog_accept_requestmethod.xml",
+        "source": "/Users/macair/Downloads/indecomobile/app/src/main/res/layout/custom_dialog_accept_requestmethod.xml"
+    },
+    {
+        "merged": "/Users/macair/Downloads/indecomobile/app/build/intermediates/incremental/mergeDebugResources/stripped.dir/layout/custom_dialog_authorize_image.xml",
+        "source": "/Users/macair/Downloads/indecomobile/app/src/main/res/layout/custom_dialog_authorize_image.xml"
+    },
+    {
+        "merged": "/Users/macair/Downloads/indecomobile/app/build/intermediates/incremental/mergeDebugResources/stripped.dir/layout/custom_dialog_box.xml",
+        "source": "/Users/macair/Downloads/indecomobile/app/src/main/res/layout/custom_dialog_box.xml"
+    },
+    {
+        "merged": "/Users/macair/Downloads/indecomobile/app/build/intermediates/incremental/mergeDebugResources/stripped.dir/layout/activity_qr_details.xml",
+        "source": "/Users/macair/Downloads/indecomobile/app/src/main/res/layout/activity_qr_details.xml"
+    },
+    {
+        "merged": "/Users/macair/Downloads/indecomobile/app/build/intermediates/incremental/mergeDebugResources/stripped.dir/layout/activity_otp.xml",
+        "source": "/Users/macair/Downloads/indecomobile/app/src/main/res/layout/activity_otp.xml"
+    },
+    {
+        "merged": "/Users/macair/Downloads/indecomobile/app/build/intermediates/incremental/mergeDebugResources/stripped.dir/layout/ack_dialog_tasks.xml",
+        "source": "/Users/macair/Downloads/indecomobile/app/src/main/res/layout/ack_dialog_tasks.xml"
+    },
+    {
+        "merged": "/Users/macair/Downloads/indecomobile/app/build/intermediates/incremental/mergeDebugResources/stripped.dir/layout/custom_dialog_radio_layout_qr.xml",
+        "source": "/Users/macair/Downloads/indecomobile/app/src/main/res/layout/custom_dialog_radio_layout_qr.xml"
+    },
+    {
+        "merged": "/Users/macair/Downloads/indecomobile/app/build/intermediates/incremental/mergeDebugResources/stripped.dir/layout/thumb_item.xml",
+        "source": "/Users/macair/Downloads/indecomobile/app/src/main/res/layout/thumb_item.xml"
+    },
+    {
+        "merged": "/Users/macair/Downloads/indecomobile/app/build/intermediates/incremental/mergeDebugResources/stripped.dir/layout/activity_fault_report.xml",
+        "source": "/Users/macair/Downloads/indecomobile/app/src/main/res/layout/activity_fault_report.xml"
+    },
+    {
+        "merged": "/Users/macair/Downloads/indecomobile/app/build/intermediates/incremental/mergeDebugResources/stripped.dir/layout/custom_dialog_authorize_tasks.xml",
+        "source": "/Users/macair/Downloads/indecomobile/app/src/main/res/layout/custom_dialog_authorize_tasks.xml"
+    },
+    {
+        "merged": "/Users/macair/Downloads/indecomobile/app/build/intermediates/incremental/mergeDebugResources/stripped.dir/layout/checklist_template.xml",
+        "source": "/Users/macair/Downloads/indecomobile/app/src/main/res/layout/checklist_template.xml"
+    },
+    {
+        "merged": "/Users/macair/Downloads/indecomobile/app/build/intermediates/incremental/mergeDebugResources/stripped.dir/layout/activity_messages.xml",
+        "source": "/Users/macair/Downloads/indecomobile/app/src/main/res/layout/activity_messages.xml"
+    },
+    {
+        "merged": "/Users/macair/Downloads/indecomobile/app/build/intermediates/incremental/mergeDebugResources/stripped.dir/layout/custom_toolbar_layout.xml",
+        "source": "/Users/macair/Downloads/indecomobile/app/src/main/res/layout/custom_toolbar_layout.xml"
+    },
+    {
+        "merged": "/Users/macair/Downloads/indecomobile/app/build/intermediates/incremental/mergeDebugResources/stripped.dir/layout/activity_workspace.xml",
+        "source": "/Users/macair/Downloads/indecomobile/app/src/main/res/layout/activity_workspace.xml"
+    },
+    {
+        "merged": "/Users/macair/Downloads/indecomobile/app/build/intermediates/incremental/mergeDebugResources/stripped.dir/layout/chat_recyclerview.xml",
+        "source": "/Users/macair/Downloads/indecomobile/app/src/main/res/layout/chat_recyclerview.xml"
+    },
+    {
+        "merged": "/Users/macair/Downloads/indecomobile/app/build/intermediates/incremental/mergeDebugResources/stripped.dir/layout/fragment_before_tab.xml",
+        "source": "/Users/macair/Downloads/indecomobile/app/src/main/res/layout/fragment_before_tab.xml"
+    },
+    {
+        "merged": "/Users/macair/Downloads/indecomobile/app/build/intermediates/incremental/mergeDebugResources/stripped.dir/layout/activity_task_search.xml",
+        "source": "/Users/macair/Downloads/indecomobile/app/src/main/res/layout/activity_task_search.xml"
+    },
+    {
+        "merged": "/Users/macair/Downloads/indecomobile/app/build/intermediates/incremental/mergeDebugResources/stripped.dir/layout/fragment_after_tab.xml",
+        "source": "/Users/macair/Downloads/indecomobile/app/src/main/res/layout/fragment_after_tab.xml"
+    }
+]

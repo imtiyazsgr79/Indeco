@@ -1,0 +1,65 @@
+<resources>
+    <string name="app_name">i-CMMS</string>
+    <string name="opt">The Code has been sent to your e-mail.
+Please enter the code</string>
+
+    <string name="fab1">Camera</string>
+    <string name="extended_fab_label">Cam</string>
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+    <string name="required_asterisk"><![CDATA[<font color=\'#cc0029\'>&nbsp*</font>]]></string>
+    <string name="hint_reqstname">Requestor Name <font fgcolor='#FF0000'>*</font></string>
+    <string name="hint_dept">Select Department <font fgcolor='#FF0000'>*</font></string>
+    <string name="hint_location">Select Location <font fgcolor='#FF0000'>*</font></string>
+    <string name="hint_building">Select Building <font fgcolor='#FF0000'>*</font></string>
+    <string name="hint_equipment">Equipment Name <font fgcolor='#FF0000'>*</font></string>
+    <string name="hint_division">Select Division <font fgcolor='#FF0000'>*</font></string>
+    <string name="hint_priority">Select Priority <font fgcolor='#FF0000'>*</font></string>
+    <string name="hint_contact">Contact No <font fgcolor='#FF0000'>*</font></string>
+    <string name="hint_locdesc">Location Description <font fgcolor='#FF0000'>*</font></string>
+    <string name="hint_faltcat">Select Fault Category <font fgcolor='#FF0000'>*</font></string>
+    <string name="hint_faultdesc">Fault Description <font fgcolor='#FF0000'>*</font></string>
+    <string name="hint_maintgrp">Maintenance Group <font fgcolor='#FF0000'>*</font></string>
+    <string name="hint_tech">Technicians <font fgcolor='#FF0000'>*</font></string>
+    <string name="acknowledged_by">Acknowledger</string>
+    <string name="name">Name</string>
+    <string name="rank">Rank</string>
+    <string name="acknowledger_s_signature">Acknowledger\'s Signature</string>
+    <string name="accept">Accept</string>
+    <string name="reject">Reject</string>
+    <string name="quotation">Quotation</string>
+    <string name="images">images</string>
+    <string name="case_id">Case ID</string>
+    <string name="department">Department</string>
+    <string name="requestor_name">Requestor Name</string>
+    <string name="activation_date">Reported Date</string>
+    <string name="arrival_date">Arrival Date</string>
+    <string name="response_time">Call-Out Time</string>
+    <string name="acknowledge_time">Acknowledge Time</string>
+    <string name="down_time">Down Time</string>
+    <string name="eot">Eot</string>
+    <string name="required_eot_time">Required Eot Time</string>
+    <string name="contact_no">Contact No</string>
+    <string name="priority">Priority</string>
+    <string name="building">Building</string>
+    <string name="location">Location</string>
+    <string name="division">Division</string>
+    <string name="location_description">Location Description</string>
+    <string name="fault_category">Fault Category</string>
+    <string name="fault_description">Fault Description</string>
+    <string name="select_maintenance_group">Select Maintenance Group</string>
+    <string name="observation">Observation</string>
+    <string name="action_taken">Action Taken</string>
+    <string name="equipment">Equipment</string>
+    <string name="remarks">Remarks</string>
+    <string name="select_status">Select Status</string>
+    <string name="technician">Technician</string>
+    <string name="acknowledger_signiture">Acknowledger\'s Signature</string>
+    <string name="technician_s_signiture">Technician\'s Signature</string>
+    <string name="pleaseSignHere">\"Please sign Here \"</string>
+    <string name="close_fault_report">Close Fault Report</string>
+    <string name="please_create_your_new_password">Please create your new password</string>
+
+    <string name="chooser_title">\"Gmail \"</string>
+
+</resources>

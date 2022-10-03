@@ -1,0 +1,13 @@
+<component name="libraryTable">
+  <library name="Gradle: com.github.mahdimoqadasi:ThumbIndicator:1.2.0@aar">
+    <CLASSES>
+      <root url="jar://$USER_HOME$/.gradle/caches/transforms-2/files-2.1/de0741409657f3a61c19a2e824bfd67d/jetified-ThumbIndicator-1.2.0/jars/classes.jar!/" />
+      <root url="file://$USER_HOME$/.gradle/caches/transforms-2/files-2.1/de0741409657f3a61c19a2e824bfd67d/jetified-ThumbIndicator-1.2.0/res" />
+      <root url="file://$USER_HOME$/.gradle/caches/transforms-2/files-2.1/de0741409657f3a61c19a2e824bfd67d/jetified-ThumbIndicator-1.2.0/AndroidManifest.xml" />
+    </CLASSES>
+    <JAVADOC />
+    <SOURCES>
+      <root url="jar://$USER_HOME$/.gradle/caches/modules-2/files-2.1/com.github.mahdimoqadasi/ThumbIndicator/1.2.0/35058376bec57d76a341e03f3580a098bd24d89b/ThumbIndicator-1.2.0-sources.jar!/" />
+    </SOURCES>
+  </library>
+</component>
